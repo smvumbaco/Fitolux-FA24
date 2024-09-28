@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Main.kicad_pro",
+    "filename": "bootcamp.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -384,7 +384,7 @@
   },
   "sheets": [
     [
-      "a34d77bc-8f6a-417e-a206-3165e6c5c658",
+      "21d8e469-b43b-48db-8d50-a9b2a503efb2",
       "Root"
     ]
   ],
