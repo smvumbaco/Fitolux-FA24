@@ -41,11 +41,16 @@
 					(page "2")
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
+			(project ""
+				(path "/078ca829-867b-4f6e-852e-21ea1713efb5"
+					(page "")
+				)
+			)
+			(project "Main"
+				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/078ca829-867b-4f6e-852e-21ea1713efb5"
+					(page "4")
+				)
+			)
 		)
 	)
 )

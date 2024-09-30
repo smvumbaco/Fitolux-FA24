@@ -390,6 +390,18 @@
     [
       "682b5c07-6a85-4a0a-86de-ba40b1ceb9db",
       "Motor"
+    ],
+    [
+      "4f545d5b-463b-4118-9437-a086c873aae3",
+      "Peripherals"
+    ],
+    [
+      "078ca829-867b-4f6e-852e-21ea1713efb5",
+      "BMS"
+    ],
+    [
+      "ea60b8da-7ac2-41c2-8972-86ec17308f51",
+      "Power Sheet"
     ]
   ],
   "text_variables": {}
