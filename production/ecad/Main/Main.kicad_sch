@@ -841,6 +841,46 @@
 			)
 		)
 	)
+	(no_connect
+		(at 229.87 129.54)
+		(uuid "0f7fc8ab-0e38-4061-83f9-a3c1b3374592")
+	)
+	(no_connect
+		(at 229.87 139.7)
+		(uuid "213fbe5f-f168-4349-9216-bca0f88229fc")
+	)
+	(no_connect
+		(at 229.87 106.68)
+		(uuid "273255a6-90cc-4a38-b50e-a584a8004e7c")
+	)
+	(no_connect
+		(at 229.87 104.14)
+		(uuid "4a8501fc-262b-4532-b27f-caf1da5163c3")
+	)
+	(no_connect
+		(at 207.01 114.3)
+		(uuid "655c18f3-a8dd-416b-a777-e435e9d175df")
+	)
+	(no_connect
+		(at 229.87 127)
+		(uuid "68e9264f-f291-4080-8e33-b994a608548a")
+	)
+	(no_connect
+		(at 229.87 109.22)
+		(uuid "a079a4a6-7bc1-42b9-bb6c-ec9165aebf74")
+	)
+	(no_connect
+		(at 207.01 104.14)
+		(uuid "e1664d59-404f-4e92-9e55-37fad84f80b4")
+	)
+	(no_connect
+		(at 229.87 114.3)
+		(uuid "f633d5f8-07c9-4370-9188-bb9392b3bd0b")
+	)
+	(no_connect
+		(at 207.01 142.24)
+		(uuid "fb10e328-1935-4d88-b47b-0b1921e22383")
+	)
 	(wire
 		(pts
 			(xy 196.85 109.22) (xy 207.01 109.22)
@@ -1220,6 +1260,16 @@
 			)
 		)
 		(uuid "4f92c8d9-e526-4381-b94f-0cadc6cb577f")
+	)
+	(text "On pinout:\n- LCD screen\n- Motor driver\n- Rotary dial\n- Vibration motors"
+		(exclude_from_sim no)
+		(at 176.022 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f5efeeec-3165-4189-a7f0-65d7059b90ec")
 	)
 	(label "LCD_CS"
 		(at 236.22 124.46 0)
