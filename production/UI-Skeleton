@@ -3,14 +3,14 @@ import Adafruit_CharLCD as LCD
 import tkinter as tk
 from datetime import datetime
 
-# Raspberry Pi pin configuration:
-lcd_rs        = 27  # Register select pin
-lcd_en        = 22  # Enable pin
-lcd_d4        = 25  # Data pins 1
-lcd_d5        = 24  # Data pins 2
-lcd_d6        = 23  # Data pins 3
-lcd_d7        = 17  # Data pins 4
-lcd_backlight = 4   # Backlight pin
+# Raspberry Pi pin configuration for Raspberry Pi Zero 2 W:
+lcd_rs        = 26  # Register select pin (was 27)
+lcd_en        = 19  # Enable pin (was 22)
+lcd_d4        = 13  # Data pins 1 (was 25)
+lcd_d5        = 6   # Data pins 2 (was 24)
+lcd_d6        = 5   # Data pins 3 (was 23)
+lcd_d7        = 11  # Data pins 4 (was 17)
+lcd_backlight = 9   # Backlight pin (was 4)
 
 # Define LCD column and row size for a 16x2 LCD.
 lcd_columns = 16
