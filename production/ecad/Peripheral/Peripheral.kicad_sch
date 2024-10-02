@@ -337,6 +337,34 @@
 			)
 		)
 	)
+	(no_connect
+		(at 119.38 91.44)
+		(uuid "336021c7-7fec-4466-8777-1204951c61a5")
+	)
+	(hierarchical_label "SW1"
+		(shape input)
+		(at 119.38 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02be9a6b-103d-49a2-a699-894376bf0621")
+	)
+	(hierarchical_label "COMB"
+		(shape input)
+		(at 119.38 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "055b65b6-659c-4ae1-99fd-b59704b5057d")
+	)
 	(hierarchical_label "ENCA"
 		(shape input)
 		(at 119.38 68.58 0)
@@ -349,6 +377,18 @@
 		)
 		(uuid "46517e43-9a49-42d3-90de-bc42aacdd554")
 	)
+	(hierarchical_label "SW3"
+		(shape input)
+		(at 119.38 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5881d8af-3161-4b90-9b65-7d7bc983789d")
+	)
 	(hierarchical_label "ENCB"
 		(shape input)
 		(at 119.38 71.12 0)
@@ -360,6 +400,54 @@
 			(justify left)
 		)
 		(uuid "c0619a68-2400-4038-b257-b1e924da5c06")
+	)
+	(hierarchical_label "SW2"
+		(shape input)
+		(at 119.38 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7665a8a-725e-43f9-960c-ee67ceb7e3bf")
+	)
+	(hierarchical_label "SW5"
+		(shape input)
+		(at 119.38 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d724a819-99d5-4e4e-9948-4626bf64c1a5")
+	)
+	(hierarchical_label "COMA"
+		(shape input)
+		(at 119.38 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db29b237-7b09-499e-9678-9639f6efc3bc")
+	)
+	(hierarchical_label "SW4"
+		(shape input)
+		(at 119.38 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5f733c8-b125-4260-8bf0-b6a677018138")
 	)
 	(symbol
 		(lib_id "dialheader:214721-0100")

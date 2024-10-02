@@ -913,7 +913,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 38.1) (xy 173.99 74.93)
+			(xy 173.99 35.56) (xy 173.99 74.93)
 		)
 		(stroke
 			(width 0)
@@ -993,6 +993,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 38.1) (xy 172.72 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61358839-db11-4b6c-bb77-551061b6cfd4")
+	)
+	(wire
+		(pts
 			(xy 218.44 64.77) (xy 228.6 64.77)
 		)
 		(stroke
@@ -1023,13 +1033,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 46.99) (xy 172.72 77.47)
+			(xy 167.64 35.56) (xy 173.99 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "789e6c60-329c-4366-90bb-0450150cc9a4")
+		(uuid "80b02a66-85b9-4ba0-b805-633b2c4a2067")
 	)
 	(wire
 		(pts
@@ -1111,16 +1121,6 @@
 		)
 		(uuid "ab4cdf66-ebc9-480f-a564-cc09f81f42b7")
 	)
-	(wire
-		(pts
-			(xy 167.64 38.1) (xy 173.99 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b227aa0d-6b40-423e-bdf1-d0b5e37ecf7f")
-	)
 	(polyline
 		(pts
 			(xy 210.82 25.4) (xy 273.05 25.4)
@@ -1143,7 +1143,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 46.99) (xy 172.72 46.99)
+			(xy 167.64 38.1) (xy 172.72 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1909,7 +1909,7 @@
 			)
 		)
 		(pin "ENCA" input
-			(at 167.64 38.1 0)
+			(at 167.64 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1919,7 +1919,7 @@
 			(uuid "5650e050-fa97-43ab-8336-caa5bb3a7df9")
 		)
 		(pin "ENCB" input
-			(at 167.64 46.99 0)
+			(at 167.64 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,6 +1927,76 @@
 				(justify right)
 			)
 			(uuid "002532c4-81fe-4e87-a8a6-be5134ebe189")
+		)
+		(pin "SW1" input
+			(at 167.64 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "01c12797-1c15-4844-a1e8-03d7d2e02fc9")
+		)
+		(pin "SW2" input
+			(at 167.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9e6ea386-062f-4e92-a190-5b24cf2942d1")
+		)
+		(pin "SW3" input
+			(at 167.64 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c99cc0b0-7afb-4578-9108-e19e3a282692")
+		)
+		(pin "SW4" input
+			(at 167.64 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "27af2f15-f775-4059-af16-de007b7e8078")
+		)
+		(pin "SW5" input
+			(at 167.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "178778e6-d1c5-4fdf-82cc-d03acf30bca3")
+		)
+		(pin "COMA" input
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e5eeff22-5ad2-47d5-ae6f-e159608fca01")
+		)
+		(pin "COMB" input
+			(at 167.64 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9b4041b0-cfe8-4e69-ba41-31ec2cba920f")
 		)
 		(instances
 			(project "Main"
