@@ -1870,10 +1870,48 @@
 			(uuid "5de9cdb3-22ff-49d7-8025-37a2f1416de1")
 		)
 		(instances
-			(project ""
+			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658"
 					(reference "J1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 95.25)
+		(size 54.61 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ce4b8d0-35a7-4065-8b62-350c68ab72fa")
+		(property "Sheetname" "Power Sheet"
+			(at 24.13 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_sheet.kicad_sch"
+			(at 24.13 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main"
+				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658"
+					(page "4")
 				)
 			)
 		)
