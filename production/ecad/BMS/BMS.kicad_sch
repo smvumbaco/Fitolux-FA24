@@ -1,51 +1,5 @@
-(kicad_sch
-	(version 20231120)
-	(generator "eeschema")
-	(generator_version "8.0")
-	(uuid "4a6baec9-0a39-49ab-abcc-693370c1c8b0")
-	(paper "A4")
-	(lib_symbols)
-	(sheet
-		(at 33.02 31.75)
-		(size 54.61 44.45)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "ea60b8da-7ac2-41c2-8972-86ec17308f51")
-		(property "Sheetname" "Power Sheet"
-			(at 33.02 31.0384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "power_sheet.kicad_sch"
-			(at 33.02 76.7846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "BMS"
-				(path "/4a6baec9-0a39-49ab-abcc-693370c1c8b0"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
+(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
+  (paper "A4")
+  (lib_symbols)
+  (symbol_instances)
 )

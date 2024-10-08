@@ -2076,7 +2076,7 @@
 		)
 		(uuid "0440f806-fde2-4049-a367-1ba3ed13ad7e")
 	)
-	(hierarchical_label "SW2"
+	(hierarchical_label "ANO_SW2"
 		(shape input)
 		(at 165.1 50.8 0)
 		(fields_autoplaced yes)
@@ -2100,7 +2100,7 @@
 		)
 		(uuid "13a10693-88cc-4a1d-87ae-590b20ce9ab2")
 	)
-	(hierarchical_label "SW5"
+	(hierarchical_label "ANO_SW5"
 		(shape input)
 		(at 165.1 60.96 0)
 		(fields_autoplaced yes)
@@ -2172,7 +2172,7 @@
 		)
 		(uuid "7f2ec186-f184-48b1-819f-74b4605106c9")
 	)
-	(hierarchical_label "ENCA"
+	(hierarchical_label "ANO_ENCA"
 		(shape input)
 		(at 165.1 68.58 0)
 		(fields_autoplaced yes)
@@ -2196,7 +2196,7 @@
 		)
 		(uuid "929ec1e3-23d4-4b1e-bbc3-b17964c27490")
 	)
-	(hierarchical_label "SW3"
+	(hierarchical_label "ANO_SW3"
 		(shape input)
 		(at 165.1 53.34 0)
 		(fields_autoplaced yes)
@@ -2232,7 +2232,7 @@
 		)
 		(uuid "b5af4e75-c7cc-4d7b-a99f-5820426f018e")
 	)
-	(hierarchical_label "SW4"
+	(hierarchical_label "ANO_SW4"
 		(shape input)
 		(at 165.1 58.42 0)
 		(fields_autoplaced yes)
@@ -2256,7 +2256,7 @@
 		)
 		(uuid "cb54a724-98dc-48ea-83f3-9aac76c3336a")
 	)
-	(hierarchical_label "SW1"
+	(hierarchical_label "ANO_SW1"
 		(shape input)
 		(at 165.1 48.26 0)
 		(fields_autoplaced yes)
@@ -2304,7 +2304,7 @@
 		)
 		(uuid "e144e357-e385-4701-b290-9314854ab039")
 	)
-	(hierarchical_label "ENCB"
+	(hierarchical_label "ANO_ENCB"
 		(shape input)
 		(at 165.1 66.04 0)
 		(fields_autoplaced yes)
@@ -2580,7 +2580,7 @@
 				(justify left top)
 			)
 		)
-		(pin "ENCA" input
+		(pin "ANO_ENCA" input
 			(at 209.55 71.12 180)
 			(effects
 				(font
@@ -2590,7 +2590,7 @@
 			)
 			(uuid "5650e050-fa97-43ab-8336-caa5bb3a7df9")
 		)
-		(pin "ENCB" input
+		(pin "ANO_ENCB" input
 			(at 209.55 68.58 180)
 			(effects
 				(font
@@ -2600,7 +2600,7 @@
 			)
 			(uuid "002532c4-81fe-4e87-a8a6-be5134ebe189")
 		)
-		(pin "SW1" input
+		(pin "ANO_SW1" input
 			(at 209.55 49.53 180)
 			(effects
 				(font
@@ -2610,7 +2610,7 @@
 			)
 			(uuid "01c12797-1c15-4844-a1e8-03d7d2e02fc9")
 		)
-		(pin "SW2" input
+		(pin "ANO_SW2" input
 			(at 209.55 53.34 180)
 			(effects
 				(font
@@ -2620,7 +2620,7 @@
 			)
 			(uuid "9e6ea386-062f-4e92-a190-5b24cf2942d1")
 		)
-		(pin "SW3" input
+		(pin "ANO_SW3" input
 			(at 209.55 57.15 180)
 			(effects
 				(font
@@ -2630,7 +2630,7 @@
 			)
 			(uuid "c99cc0b0-7afb-4578-9108-e19e3a282692")
 		)
-		(pin "SW4" input
+		(pin "ANO_SW4" input
 			(at 209.55 60.96 180)
 			(effects
 				(font
@@ -2640,7 +2640,7 @@
 			)
 			(uuid "27af2f15-f775-4059-af16-de007b7e8078")
 		)
-		(pin "SW5" input
+		(pin "ANO_SW5" input
 			(at 209.55 64.77 180)
 			(effects
 				(font
@@ -2650,7 +2650,7 @@
 			)
 			(uuid "178778e6-d1c5-4fdf-82cc-d03acf30bca3")
 		)
-		(pin "COMA" input
+		(pin "ANO_COMA" input
 			(at 209.55 46.99 180)
 			(effects
 				(font
@@ -2660,7 +2660,7 @@
 			)
 			(uuid "e5eeff22-5ad2-47d5-ae6f-e159608fca01")
 		)
-		(pin "COMB" input
+		(pin "ANO_COMB" input
 			(at 209.55 44.45 180)
 			(effects
 				(font
