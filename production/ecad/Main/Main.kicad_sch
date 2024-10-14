@@ -866,12 +866,6 @@
 		(uuid "6f603a3a-146d-4b62-b9e6-607a504b7eda")
 	)
 	(junction
-		(at 135.89 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c1e2f21-66f1-48f6-b308-a3618981c58d")
-	)
-	(junction
 		(at 135.89 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -946,16 +940,6 @@
 	(no_connect
 		(at 165.1 63.5)
 		(uuid "e219e6f9-db67-45cc-bcea-188569e812f7")
-	)
-	(wire
-		(pts
-			(xy 120.65 138.43) (xy 162.56 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "016757f1-1319-4e97-a843-b30321721aea")
 	)
 	(wire
 		(pts
@@ -1119,16 +1103,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 86.36) (xy 149.86 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "290a4af5-a151-4b21-9e95-1e20fc79aeaf")
-	)
-	(wire
-		(pts
 			(xy 209.55 71.12) (xy 170.18 71.12)
 		)
 		(stroke
@@ -1139,7 +1113,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 86.36) (xy 135.89 88.9)
+			(xy 135.89 86.36) (xy 135.89 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1186,6 +1160,16 @@
 			(type default)
 		)
 		(uuid "3cf0a7d7-8913-4a91-be0c-6654c7849701")
+	)
+	(wire
+		(pts
+			(xy 120.65 138.43) (xy 162.56 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da85fd2-2a73-4903-8131-24f940842b11")
 	)
 	(wire
 		(pts
@@ -1559,16 +1543,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 88.9) (xy 135.89 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4fc49a8-09e3-49a8-abb6-1b6f6d7c13a2")
-	)
-	(wire
-		(pts
 			(xy 238.76 102.87) (xy 238.76 104.14)
 		)
 		(stroke
@@ -1576,16 +1550,6 @@
 			(type default)
 		)
 		(uuid "a940110e-1e26-4333-8fb9-92471162bfea")
-	)
-	(wire
-		(pts
-			(xy 149.86 86.36) (xy 149.86 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aac51470-903b-46b2-a253-c7e08678d7d7")
 	)
 	(polyline
 		(pts
@@ -1716,16 +1680,6 @@
 			(type default)
 		)
 		(uuid "bf20ba21-e108-4fd4-ad1c-a143b333fe17")
-	)
-	(wire
-		(pts
-			(xy 149.86 88.9) (xy 158.75 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0bdb723-cc46-429d-ae95-b35b1c2c0559")
 	)
 	(polyline
 		(pts
@@ -2456,7 +2410,7 @@
 		)
 		(uuid "7f2ec186-f184-48b1-819f-74b4605106c9")
 	)
-	(hierarchical_label "GNDEXT"
+	(hierarchical_label "GND"
 		(shape input)
 		(at 165.1 81.28 0)
 		(fields_autoplaced yes)
@@ -3046,7 +3000,7 @@
 			)
 			(uuid "2c3169a9-61d5-41b4-8f4e-dc52e8895d38")
 		)
-		(pin "GNDEXT" input
+		(pin "GND" input
 			(at 205.74 132.08 180)
 			(effects
 				(font
@@ -3282,7 +3236,7 @@
 			)
 			(uuid "6a5d23d2-b911-4ba3-bdad-ce277bef4a46")
 		)
-		(pin "GNDEXT" output
+		(pin "GND" output
 			(at 120.65 138.43 0)
 			(effects
 				(font
