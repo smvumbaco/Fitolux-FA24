@@ -2804,7 +2804,7 @@
 			(uuid "5de9cdb3-22ff-49d7-8025-37a2f1416de1")
 		)
 		(instances
-			(project ""
+			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658"
 					(reference "J1")
 					(unit 1)
