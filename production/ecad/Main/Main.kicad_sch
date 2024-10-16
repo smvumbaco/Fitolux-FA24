@@ -2813,6 +2813,94 @@
 		)
 	)
 	(sheet
+		(at 44.45 17.78)
+		(size 21.59 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1fa8e4ec-3b8f-41b7-8956-25ba2b294586")
+		(property "Sheetname" "Load_Cell_and_Amplifier"
+			(at 44.45 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Load_Cell_and_Amplifier.kicad_sch"
+			(at 44.45 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "de75aed3-4626-4396-9d0d-5d0678af1324")
+		)
+		(pin "VCC" input
+			(at 66.04 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f3a474af-13a2-4b07-918f-1ca3bdcf8d07")
+		)
+		(pin "DAT" output
+			(at 66.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "99f5e71b-908c-4c87-9771-8f61eab8f8bc")
+		)
+		(pin "SCK" output
+			(at 66.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aefcdb3c-4f7f-443d-b37e-3f92840b414c")
+		)
+		(pin "VDD" input
+			(at 66.04 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5a96d45c-8495-4a60-a303-2beba65162e3")
+		)
+		(instances
+			(project "Main"
+				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 209.55 41.91)
 		(size 52.07 31.75)
 		(fields_autoplaced yes)

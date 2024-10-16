@@ -402,6 +402,10 @@
     [
       "8907b1b2-1248-4544-8d7d-33764869f691",
       "BMS"
+    ],
+    [
+      "1fa8e4ec-3b8f-41b7-8956-25ba2b294586",
+      "Load_Cell_and_Amplifier"
     ]
   ],
   "text_variables": {}
