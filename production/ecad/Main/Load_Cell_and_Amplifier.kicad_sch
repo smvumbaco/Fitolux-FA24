@@ -1954,174 +1954,6 @@
 				)
 			)
 		)
-		(symbol "Load Cell and Amplifier-eagle-import:M02PTH"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -2.54 5.842 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Load Cell and Amplifier:1X02"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Standard 2-pin 0.1\" header. Use with\n- straight break away headers ( PRT-00116)\n- right angle break away headers (PRT-00553)\n- swiss pins (PRT-00743)\n- machine pins (PRT-00117)\n- female headers (PRT-00115)\n\nMolex polarized connector foot print use with: PRT-08233 with associated crimp pins and housings.\n\n2.54_SCREWTERM for use with  PRT-10571.\n\n3.5mm Screw Terminal footprints for  PRT-08084\n\n5mm Screw Terminal footprints for use with PRT-08432"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "M02PTH_1_0"
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.6096)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.6096)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Load Cell and Amplifier-eagle-import:M05PTH"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2928,6 +2760,14 @@
 		(color 0 0 0 0)
 		(uuid "f5823728-524a-4565-94c9-426d7ac90a16")
 	)
+	(no_connect
+		(at 190.5 106.68)
+		(uuid "4ddd0c61-0e2c-408e-862a-3a2e35e94374")
+	)
+	(no_connect
+		(at 190.5 101.6)
+		(uuid "a51b184d-b3a5-46d0-b298-48c517c2272b")
+	)
 	(wire
 		(pts
 			(xy 220.98 83.82) (xy 220.98 86.36)
@@ -3200,16 +3040,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 106.68) (xy 193.04 106.68)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "367ec656-1aa7-4636-8156-32d76fdbe236")
-	)
-	(wire
-		(pts
 			(xy 190.5 81.28) (xy 195.58 81.28)
 		)
 		(stroke
@@ -3267,16 +3097,6 @@
 			(type solid)
 		)
 		(uuid "50cbc8d8-2cdb-4b5c-89ac-ad6a86414bfa")
-	)
-	(wire
-		(pts
-			(xy 83.82 96.52) (xy 76.2 96.52)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "51602dd1-c241-4c12-85be-fee1a16fc0e0")
 	)
 	(wire
 		(pts
@@ -3360,16 +3180,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 106.68) (xy 193.04 129.54)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "74366d76-c207-4174-ad27-8cb48685a938")
-	)
-	(wire
-		(pts
 			(xy 101.6 55.88) (xy 101.6 53.34)
 		)
 		(stroke
@@ -3440,16 +3250,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 132.08) (xy 83.82 96.52)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "900c10b4-b4ef-462f-9c79-3d2cf6009c9a")
-	)
-	(wire
-		(pts
 			(xy 137.16 86.36) (xy 137.16 83.82)
 		)
 		(stroke
@@ -3480,16 +3280,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 129.54) (xy 86.36 93.98)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "aa544584-bb23-48c3-baec-f9de6dfe1230")
-	)
-	(wire
-		(pts
 			(xy 129.54 45.72) (xy 129.54 43.18)
 		)
 		(stroke
@@ -3497,16 +3287,6 @@
 			(type solid)
 		)
 		(uuid "ae5ce8bd-d2f4-4d9a-a813-9a0a2577356d")
-	)
-	(wire
-		(pts
-			(xy 86.36 93.98) (xy 76.2 93.98)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "aef91538-b6cd-4bb1-9967-6f599a87eb2c")
 	)
 	(wire
 		(pts
@@ -3570,16 +3350,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 132.08) (xy 83.82 132.08)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b93f62bf-8ff7-438f-80f6-3c5f98e8af60")
-	)
-	(wire
-		(pts
 			(xy 137.16 104.14) (xy 137.16 101.6)
 		)
 		(stroke
@@ -3597,16 +3367,6 @@
 			(type solid)
 		)
 		(uuid "bb479b2b-5453-4628-bc24-5ab63177e68f")
-	)
-	(wire
-		(pts
-			(xy 190.5 101.6) (xy 195.58 101.6)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bb675bed-eb40-411b-a7ff-e41291058c77")
 	)
 	(polyline
 		(pts
@@ -3760,16 +3520,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 129.54) (xy 86.36 129.54)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e6c2286d-7fd6-4fd0-9f4d-f74f1dbf229b")
-	)
-	(wire
-		(pts
 			(xy 223.52 96.52) (xy 220.98 96.52)
 		)
 		(stroke
@@ -3867,16 +3617,6 @@
 			(type solid)
 		)
 		(uuid "fa50eedd-3afa-454a-9c69-dd4c89441e87")
-	)
-	(wire
-		(pts
-			(xy 195.58 101.6) (xy 195.58 132.08)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "fc98d5d7-e30c-4d03-9123-4d497c4b9576")
 	)
 	(wire
 		(pts
@@ -4145,28 +3885,6 @@
 			(justify left bottom)
 		)
 		(uuid "b3f67b42-24c3-421e-815d-92b157f9471b")
-	)
-	(label "B+"
-		(at 81.28 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "d220a643-9977-4650-92ae-d25775ccb8ce")
-	)
-	(label "B-"
-		(at 81.28 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "ef447c7c-4f49-4ff3-ba6e-25c6bb959d83")
 	)
 	(hierarchical_label "VCC"
 		(shape input)
@@ -4688,75 +4406,6 @@
 			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
 					(reference "#GND08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Load Cell and Amplifier-eagle-import:M02PTH")
-		(at 68.58 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "49cb29ff-2fbb-4d68-a869-970f03f4e380")
-		(property "Reference" "JP2"
-			(at 66.04 90.678 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "M02PTH"
-			(at 66.04 101.6 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Load Cell and Amplifier:1X02"
-			(at 68.58 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6cd815d-f863-423e-9256-c2574347edd9")
-		)
-		(pin "2"
-			(uuid "d2698d82-ec5a-4a22-81e7-186196f2197c")
-		)
-		(instances
-			(project "Main"
-				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "JP2")
 					(unit 1)
 				)
 			)
