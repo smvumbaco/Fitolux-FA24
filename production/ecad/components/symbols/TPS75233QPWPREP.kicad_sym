@@ -1,0 +1,203 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "TPS75233QPWPREP" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Value" "TPS75233QPWPREP" (id 1) (at 0 0.0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Footprint" "TPS75233QPWPREP:TPS75233QPWPREP" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Texas Instruments" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\nEnhanced product, fast transient response voltage regular\n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "HTSSOP-20 Texas Instruments" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS75233QPWPREP/Texas+Instruments/view-part/?ref=snap" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "TPS75233QPWPREP" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/TPS75233QPWPREP/Texas+Instruments/view-part/?ref=eda" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "TPS75233QPWPREP_0_0"
+      (rectangle (start -17.78 -27.94) (end 17.78 27.94)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin bidirectional line (at -22.86 22.86 0) (length 5.08)
+        (name "GND/HEATSINK1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 17.78 0) (length 5.08)
+        (name "NC1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 12.7 0) (length 5.08)
+        (name "IN1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 7.62 0) (length 5.08)
+        (name "IN2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 2.54 0) (length 5.08)
+        (name "EN'"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 -2.54 0) (length 5.08)
+        (name "RESET'_OR_PG"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 -7.62 0) (length 5.08)
+        (name "FB/SENSE"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 -12.7 0) (length 5.08)
+        (name "OUTPUT1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 -17.78 0) (length 5.08)
+        (name "OUTPUT2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 -22.86 0) (length 5.08)
+        (name "GND/HEATSINK2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 -22.86 180.0) (length 5.08)
+        (name "GND/HEATSINK3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 -17.78 180.0) (length 5.08)
+        (name "NC2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 -12.7 180.0) (length 5.08)
+        (name "NC3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 -7.62 180.0) (length 5.08)
+        (name "NC4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 -2.54 180.0) (length 5.08)
+        (name "NC5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 2.54 180.0) (length 5.08)
+        (name "NC6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 7.62 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 12.7 180.0) (length 5.08)
+        (name "NC7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 17.78 180.0) (length 5.08)
+        (name "NC8"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 22.86 180.0) (length 5.08)
+        (name "GND/HEATSINK4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
