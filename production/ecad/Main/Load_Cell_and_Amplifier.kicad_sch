@@ -5,6 +5,265 @@
 	(uuid "474a8034-81b9-411d-94c8-330911c61797")
 	(paper "A4")
 	(lib_symbols
+		(symbol "6_pos_connector:214721-0061"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "214721-0061"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "2147210061"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/2147210061?display=pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zero-Hachi Header, 0.80mm Pitch, Single Row, Right-Angle, Surface Mount, Gold (Au) Plating, Friction Lock, 6 Circuits, Tape and Reel"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.8"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "214721-0061"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "214721-0061_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -10.16 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -12.7 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Load Cell and Amplifier-eagle-import:0.1UF-25V-5%(0603)"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1954,264 +2213,6 @@
 				)
 			)
 		)
-		(symbol "Load Cell and Amplifier-eagle-import:M05PTH"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -2.54 8.382 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -10.16 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Load Cell and Amplifier:1X05"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Header 5 Standard 5-pin 0.1\" header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115). Molex polarized connector foot print use with SKU : PRT-08230 with associated crimp pins and housings."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "M05PTH_1_0"
-				(polyline
-					(pts
-						(xy -2.54 7.62) (xy -2.54 -7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 7.62) (xy 3.81 7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.6096)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.6096)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.6096)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.6096)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0.6096)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -7.62) (xy -2.54 -7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -7.62) (xy 3.81 7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Load Cell and Amplifier-eagle-import:TRANSISTOR_PNPMMBT4403"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2671,12 +2672,6 @@
 		(uuid "1571e406-9406-41cc-a0ea-70a9e91cd98f")
 	)
 	(junction
-		(at 223.52 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1824cd4d-4c01-4183-8568-02718a898fa5")
-	)
-	(junction
 		(at 203.2 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2695,18 +2690,6 @@
 		(uuid "6a5a4e10-c275-4834-be18-68d6b6d7765a")
 	)
 	(junction
-		(at 223.52 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77796eed-df3c-4cc7-8877-72420fdecdbb")
-	)
-	(junction
-		(at 223.52 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "781dc7eb-a68a-41d8-981a-e85d3f38ec96")
-	)
-	(junction
 		(at 142.24 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2719,22 +2702,10 @@
 		(uuid "7e237a18-f44e-4bcb-9cf4-89d9681729d3")
 	)
 	(junction
-		(at 223.52 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "928f7c85-b7f5-4dae-9eaf-8629faf82f2c")
-	)
-	(junction
-		(at 223.52 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9481b740-1de2-44ea-ae32-29ef1610ad53")
-	)
-	(junction
 		(at 78.74 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b89d0be2-9ede-4d65-96ee-70bb0cf88850")
+		(uuid "b66e4c42-c483-48b5-bdf9-00c1dce1cc1a")
 	)
 	(junction
 		(at 147.32 111.76)
@@ -2790,7 +2761,7 @@
 	)
 	(polyline
 		(pts
-			(xy 54.356 68.58) (xy 58.42 68.58)
+			(xy 50.8 68.58) (xy 54.864 68.58)
 		)
 		(stroke
 			(width 0.2032)
@@ -2850,7 +2821,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 86.36) (xy 223.52 86.36)
+			(xy 220.98 86.36) (xy 237.49 86.36)
 		)
 		(stroke
 			(width 0.1524)
@@ -2940,7 +2911,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 91.44) (xy 223.52 91.44)
+			(xy 190.5 91.44) (xy 237.49 91.44)
 		)
 		(stroke
 			(width 0.1524)
@@ -2970,6 +2941,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 81.28) (xy 78.74 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "25a148b9-08fd-4ef3-b2a3-5e5de9f212d1")
+	)
+	(wire
+		(pts
 			(xy 157.48 63.5) (xy 157.48 76.2)
 		)
 		(stroke
@@ -2980,7 +2961,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 93.98) (xy 223.52 93.98)
+			(xy 195.58 93.98) (xy 237.49 93.98)
 		)
 		(stroke
 			(width 0.1524)
@@ -3060,7 +3041,7 @@
 	)
 	(polyline
 		(pts
-			(xy 54.356 68.58) (xy 54.356 82.55)
+			(xy 50.8 68.58) (xy 50.8 82.55)
 		)
 		(stroke
 			(width 0.2032)
@@ -3260,16 +3241,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 88.9) (xy 237.49 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97141a75-e62d-4452-82d9-26bd0c7d24ff")
-	)
-	(wire
-		(pts
 			(xy 114.3 43.18) (xy 114.3 45.72)
 		)
 		(stroke
@@ -3300,33 +3271,13 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 88.9) (xy 215.9 88.9)
+			(xy 215.9 88.9) (xy 237.49 88.9)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "b069b714-0d2e-47d0-8665-1a341c215ec4")
-	)
-	(wire
-		(pts
-			(xy 223.52 86.36) (xy 237.49 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b495abe0-ddc3-4286-9027-9f3135073a98")
-	)
-	(wire
-		(pts
-			(xy 78.74 73.66) (xy 78.74 81.28)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b56a09e6-2536-443e-90bb-e6695abfeae5")
 	)
 	(wire
 		(pts
@@ -3370,7 +3321,7 @@
 	)
 	(polyline
 		(pts
-			(xy 54.356 82.55) (xy 58.42 82.55)
+			(xy 50.8 82.55) (xy 54.864 82.55)
 		)
 		(stroke
 			(width 0.2032)
@@ -3407,16 +3358,6 @@
 			(type solid)
 		)
 		(uuid "c99714cc-9b32-44bd-9bb1-0c70e5b69b81")
-	)
-	(wire
-		(pts
-			(xy 223.52 91.44) (xy 237.49 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce0287f6-a022-4554-b88a-a82fc7ca314a")
 	)
 	(wire
 		(pts
@@ -3460,16 +3401,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 81.28) (xy 78.74 83.82)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d5be0de1-3ae9-4b3b-9617-c2fad0c4ea65")
-	)
-	(wire
-		(pts
 			(xy 147.32 114.3) (xy 147.32 111.76)
 		)
 		(stroke
@@ -3477,16 +3408,6 @@
 			(type solid)
 		)
 		(uuid "d6ce4db3-05df-4bf2-86fb-392bec8efd6f")
-	)
-	(wire
-		(pts
-			(xy 223.52 96.52) (xy 237.49 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d893efb8-004a-4c94-aaf0-da484fc51344")
 	)
 	(wire
 		(pts
@@ -3520,7 +3441,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 96.52) (xy 220.98 96.52)
+			(xy 220.98 96.52) (xy 237.49 96.52)
 		)
 		(stroke
 			(width 0.1524)
@@ -3610,6 +3531,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 73.66) (xy 78.74 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fa18ea5b-c757-4f6c-933a-019dc18c6eb9")
+	)
+	(wire
+		(pts
 			(xy 203.2 81.28) (xy 203.2 83.82)
 		)
 		(stroke
@@ -3628,19 +3559,9 @@
 		)
 		(uuid "fd78fdb4-712e-4f78-bd4c-718f03bd8b98")
 	)
-	(wire
-		(pts
-			(xy 223.52 93.98) (xy 237.49 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feb92d70-f6d9-4b4c-a32b-210ca0273d04")
-	)
 	(text "A-\n"
 		(exclude_from_sim no)
-		(at 60.96 76.708 0)
+		(at 67.818 76.454 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3661,7 +3582,7 @@
 	)
 	(text "Shield"
 		(exclude_from_sim no)
-		(at 62.484 81.788 0)
+		(at 66.04 81.534 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3693,7 +3614,7 @@
 	)
 	(text "E-"
 		(exclude_from_sim no)
-		(at 60.96 74.168 0)
+		(at 67.818 73.914 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3780,7 +3701,7 @@
 	)
 	(text "E+"
 		(exclude_from_sim no)
-		(at 60.96 71.628 0)
+		(at 67.818 71.374 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3790,7 +3711,7 @@
 	)
 	(text "A+"
 		(exclude_from_sim no)
-		(at 60.96 79.248 0)
+		(at 67.818 78.994 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4682,84 +4603,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Load Cell and Amplifier-eagle-import:M05PTH")
-		(at 231.14 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c4dec60-1fed-4656-92f6-1dcfa22f882b")
-		(property "Reference" "OutputConnectors"
-			(at 245.364 99.568 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "M05PTH"
-			(at 233.68 81.28 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Load Cell and Amplifier:1X05"
-			(at 231.14 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 231.14 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "578ab432-fb4c-46d1-9427-6b75be481852")
-		)
-		(pin "4"
-			(uuid "c2c3530a-97de-429a-a45a-3ec08314f656")
-		)
-		(pin "3"
-			(uuid "dcc171b1-d620-4633-8502-bd2cd935ce44")
-		)
-		(pin "5"
-			(uuid "10e27767-1b61-4394-8f52-13f2cf5efbc8")
-		)
-		(pin "1"
-			(uuid "c7931354-9712-48ba-9cc5-1b2b50b3d29c")
-		)
-		(instances
-			(project "Main"
-				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "OutputConnectors")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Load Cell and Amplifier-eagle-import:HX711HX711")
 		(at 177.8 88.9 0)
 		(unit 1)
@@ -5009,6 +4852,144 @@
 		)
 	)
 	(symbol
+		(lib_id "6_pos_connector:214721-0061")
+		(at 53.34 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83230df9-01fd-4162-8475-9602ae557682")
+		(property "Reference" "LoadCellConnector"
+			(at 64.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "214721-0061"
+			(at 64.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "2147210061"
+			(at 72.39 166.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/2147210061?display=pdf"
+			(at 72.39 266.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zero-Hachi Header, 0.80mm Pitch, Single Row, Right-Angle, Surface Mount, Gold (Au) Plating, Friction Lock, 6 Circuits, Tape and Reel"
+			(at 53.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.8"
+			(at 72.39 466.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 72.39 566.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 72.39 666.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 72.39 766.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "214721-0061"
+			(at 72.39 866.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "141c841c-7cda-41e1-9c1a-45c29de2d271")
+		)
+		(pin "2"
+			(uuid "aaad028b-594e-4fcc-b905-a40826a45d41")
+		)
+		(pin "4"
+			(uuid "c800a90c-8350-4e28-80a4-0bc153549f57")
+		)
+		(pin "6"
+			(uuid "2dcb65c2-9dcf-444a-9b8c-b27784d8a679")
+		)
+		(pin "8"
+			(uuid "b843695b-e357-49c0-b01f-5a734c436e35")
+		)
+		(pin "1"
+			(uuid "7f6516ae-9d2b-43ed-bb63-ffcf6f04cf93")
+		)
+		(pin "7"
+			(uuid "62faf782-0499-4944-98b8-8a875da1e47c")
+		)
+		(pin "3"
+			(uuid "1211df88-4879-4937-9726-1ac1de468534")
+		)
+		(instances
+			(project ""
+				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
+					(reference "LoadCellConnector")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Load Cell and Amplifier-eagle-import:0.1UF-25V-5%(0603)")
 		(at 101.6 50.8 0)
 		(unit 1)
@@ -5138,84 +5119,6 @@
 			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
 					(reference "#SUPPLY02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Load Cell and Amplifier-eagle-import:M05PTH")
-		(at 68.58 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "97e53a7a-0490-4abb-9e81-37815be409d5")
-		(property "Reference" "LoadCellConnector"
-			(at 53.34 66.802 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "M05PTH"
-			(at 66.04 86.36 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Load Cell and Amplifier:1X05"
-			(at 68.58 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "bac4555a-a265-4500-9d75-7baba6ee3512")
-		)
-		(pin "5"
-			(uuid "cbd9d8d3-3f7f-4117-ab1d-912924dbafff")
-		)
-		(pin "1"
-			(uuid "8f031b5d-d9b3-491b-abb4-3341b726cac4")
-		)
-		(pin "2"
-			(uuid "0b56a5ab-c106-48d5-be67-68f36cb87657")
-		)
-		(pin "3"
-			(uuid "ec27ac08-f7b7-44a5-ab14-626a1d849348")
-		)
-		(instances
-			(project "Main"
-				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "LoadCellConnector")
 					(unit 1)
 				)
 			)
