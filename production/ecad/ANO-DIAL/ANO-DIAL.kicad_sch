@@ -599,7 +599,7 @@
 			(uuid "144242fa-4a36-4b6a-993b-acc24074923c")
 		)
 		(instances
-			(project ""
+			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/56db885d-6988-4ba3-9c6c-3dd30ffbc985"
 					(reference "J2")
 					(unit 1)
