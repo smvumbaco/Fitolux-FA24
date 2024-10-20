@@ -1724,7 +1724,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 49.53) (xy 251.46 49.53)
+			(xy 226.06 45.72) (xy 238.76 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1824,7 +1824,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 41.91) (xy 251.46 41.91)
+			(xy 226.06 38.1) (xy 238.76 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1953,6 +1953,18 @@
 		(uuid "fe14915e-6f04-422a-9234-32977409bcd1")
 	)
 	(rectangle
+		(start 176.53 16.51)
+		(end 283.21 55.88)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3c67e206-ecb8-48f0-afb4-ce64eeaae69d)
+	)
+	(rectangle
 		(start 16.51 16.51)
 		(end 168.91 114.3)
 		(stroke
@@ -1975,6 +1987,19 @@
 			(type none)
 		)
 		(uuid b586b88b-677e-431d-b07e-e6f74da5dafc)
+	)
+	(text "Barrel jack connector: 5V from wall adapter"
+		(exclude_from_sim no)
+		(at 178.308 24.638 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bd9a1c2-8b45-436f-84e6-de7e055ef6a5")
 	)
 	(text "LDO: 5V to 3.3V, 2A\n\n"
 		(exclude_from_sim no)
@@ -2125,7 +2150,7 @@
 	)
 	(hierarchical_label "5VEXT"
 		(shape input)
-		(at 251.46 49.53 0)
+		(at 238.76 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2161,7 +2186,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 251.46 41.91 0)
+		(at 238.76 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2209,7 +2234,7 @@
 	)
 	(symbol
 		(lib_id "2024-10-20_20-22-38:ADC-028-1-T_R-PA10T")
-		(at 238.76 41.91 0)
+		(at 226.06 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2218,7 +2243,7 @@
 		(fields_autoplaced yes)
 		(uuid "16864abc-bf92-4608-b5c5-a9a762f0e127")
 		(property "Reference" "J7"
-			(at 225.4278 36.83 0)
+			(at 212.7278 33.02 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2226,7 +2251,7 @@
 			)
 		)
 		(property "Value" "ADC-028-1-T/R-PA10T"
-			(at 225.4278 39.37 0)
+			(at 212.7278 35.56 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2234,7 +2259,7 @@
 			)
 		)
 		(property "Footprint" "ADC-028-x-T/R-PA10T_ADM"
-			(at 238.76 41.91 0)
+			(at 226.06 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,7 +2269,7 @@
 			)
 		)
 		(property "Datasheet" "ADC-028-1-T/R-PA10T"
-			(at 238.76 41.91 0)
+			(at 226.06 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2254,7 +2279,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 41.91 0)
+			(at 226.06 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
