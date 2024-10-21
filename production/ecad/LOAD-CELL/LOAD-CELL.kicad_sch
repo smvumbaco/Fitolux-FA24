@@ -5606,7 +5606,7 @@
 			(uuid "b92b27f8-174a-4419-aaf0-e25b77714dcc")
 		)
 		(instances
-			(project ""
+			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
 					(reference "J10")
 					(unit 1)
