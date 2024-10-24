@@ -264,6 +264,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Load Cell and Amplifier-eagle-import:0.1UF-25V-5%(0603)"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1364,97 +1485,6 @@
 				)
 			)
 		)
-		(symbol "Load Cell and Amplifier-eagle-import:GND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#GND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SUPPLY SYMBOL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_1_0"
-				(polyline
-					(pts
-						(xy -1.905 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Load Cell and Amplifier-eagle-import:HX711HX711"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2045,174 +2075,6 @@
 				)
 			)
 		)
-		(symbol "Load Cell and Amplifier-eagle-import:JUMPER-PAD-2-NC_BY_TRACE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -2.54 2.54 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Load Cell and Amplifier:PAD-JUMPER-2-NC_BY_TRACE_YES_SILK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "JUMPER-PAD-2-NC_BY_TRACE_1_0"
-				(arc
-					(start -0.3808 0.635)
-					(mid -1.0159 0.0001)
-					(end -0.381 -0.635)
-					(stroke
-						(width 1.27)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.651 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0) (xy 1.016 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.651 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.3809 -0.6351)
-					(mid 0.83 -0.4491)
-					(end 1.016 0)
-					(stroke
-						(width 1.27)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.0159 -0.0001)
-					(mid 0.83 0.4489)
-					(end 0.381 0.635)
-					(stroke
-						(width 1.27)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Load Cell and Amplifier-eagle-import:TRANSISTOR_PNPMMBT4403"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2458,13 +2320,16 @@
 				)
 			)
 		)
-		(symbol "Load Cell and Amplifier-eagle-import:VCC"
+		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#SUPPLY"
-				(at 0 0 0)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2472,13 +2337,12 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at -1.016 3.556 0)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" ""
@@ -2499,7 +2363,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SUPPLY SYMBOL"
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2508,22 +2372,23 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(symbol "VCC_1_0"
+			(symbol "+5V_0_1"
 				(polyline
 					(pts
-						(xy 0 2.54) (xy -0.762 1.27)
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -2531,43 +2396,60 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 1.27) (xy 0 2.54)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 2.54)
-					(name "VCC"
+					(length 0)
+					(name "~"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 			)
 		)
-		(symbol "Load Cell and Amplifier-eagle-import:VDD"
+		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#SUPPLY"
-				(at 0 0 0)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2575,13 +2457,12 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at -1.016 3.556 0)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" ""
@@ -2602,7 +2483,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SUPPLY SYMBOL"
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2611,53 +2492,44 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(symbol "VDD_1_0"
+			(symbol "GND_0_1"
 				(polyline
 					(pts
-						(xy 0 2.54) (xy -0.762 1.27)
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "GND_1_1"
 				(pin power_in line
-					(at 0 0 90)
-					(length 2.54)
-					(name "VDD"
+					(at 0 0 270)
+					(length 0)
+					(name "~"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2753,16 +2625,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 83.82) (xy 220.98 86.36)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "036727d6-01a2-4353-b0d3-3a56034f9755")
-	)
-	(wire
-		(pts
 			(xy 109.22 83.82) (xy 109.22 81.28)
 		)
 		(stroke
@@ -2833,16 +2695,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 86.36) (xy 237.49 86.36)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0fd256e4-71ae-49fb-8e0b-e0b3aad76243")
-	)
-	(wire
-		(pts
 			(xy 137.16 88.9) (xy 137.16 86.36)
 		)
 		(stroke
@@ -2903,7 +2755,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 55.88) (xy 203.2 53.34)
+			(xy 203.2 55.88) (xy 203.2 50.8)
 		)
 		(stroke
 			(width 0.1524)
@@ -2953,7 +2805,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 81.28) (xy 78.74 83.82)
+			(xy 78.74 81.28) (xy 78.74 88.9)
 		)
 		(stroke
 			(width 0.1524)
@@ -3040,6 +2892,16 @@
 			(type solid)
 		)
 		(uuid "3b19d1ab-17f9-4e5e-8f9c-b2126a08a42b")
+	)
+	(wire
+		(pts
+			(xy 50.8 151.13) (xy 41.91 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dee6e9d-1b1c-4f72-bd8e-116440939597")
 	)
 	(wire
 		(pts
@@ -3173,7 +3035,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 55.88) (xy 101.6 53.34)
+			(xy 92.71 36.83) (xy 92.71 34.29)
 		)
 		(stroke
 			(width 0.1524)
@@ -3193,6 +3055,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 165.1) (xy 39.37 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84d0df35-15ff-41db-b1e2-9216bdbc2798")
+	)
+	(wire
+		(pts
 			(xy 147.32 63.5) (xy 157.48 63.5)
 		)
 		(stroke
@@ -3200,16 +3072,6 @@
 			(type solid)
 		)
 		(uuid "888ad4ce-5c48-458d-8657-0b2f4c681bcb")
-	)
-	(wire
-		(pts
-			(xy 215.9 88.9) (xy 215.9 83.82)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8abd6bd4-2cdc-4ca8-afc8-7ad448e70738")
 	)
 	(wire
 		(pts
@@ -3253,7 +3115,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 43.18) (xy 114.3 45.72)
+			(xy 105.41 24.13) (xy 105.41 26.67)
 		)
 		(stroke
 			(width 0.1524)
@@ -3263,7 +3125,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 45.72) (xy 129.54 43.18)
+			(xy 120.65 26.67) (xy 120.65 24.13)
 		)
 		(stroke
 			(width 0.1524)
@@ -3273,23 +3135,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 55.88) (xy 114.3 53.34)
+			(xy 105.41 36.83) (xy 105.41 34.29)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "afa6240d-d13c-4b6b-a818-3d9d66522ff7")
-	)
-	(wire
-		(pts
-			(xy 215.9 88.9) (xy 237.49 88.9)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b069b714-0d2e-47d0-8665-1a341c215ec4")
 	)
 	(wire
 		(pts
@@ -3320,16 +3172,6 @@
 			(type solid)
 		)
 		(uuid "b9e2fc03-7e67-4379-a650-8c2b5b6a36f0")
-	)
-	(wire
-		(pts
-			(xy 220.98 96.52) (xy 220.98 99.06)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bb479b2b-5453-4628-bc24-5ab63177e68f")
 	)
 	(polyline
 		(pts
@@ -3453,16 +3295,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 96.52) (xy 237.49 96.52)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e84adba6-2cdd-4bad-8945-46f7116a98b9")
-	)
-	(wire
-		(pts
 			(xy 147.32 121.92) (xy 147.32 124.46)
 		)
 		(stroke
@@ -3533,7 +3365,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 43.18) (xy 101.6 45.72)
+			(xy 92.71 24.13) (xy 92.71 26.67)
 		)
 		(stroke
 			(width 0.1524)
@@ -3553,7 +3385,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 81.28) (xy 203.2 83.82)
+			(xy 203.2 78.74) (xy 203.2 81.28)
 		)
 		(stroke
 			(width 0.1524)
@@ -3563,13 +3395,25 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 53.34) (xy 129.54 55.88)
+			(xy 120.65 34.29) (xy 120.65 36.83)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "fd78fdb4-712e-4f78-bd4c-718f03bd8b98")
+	)
+	(rectangle
+		(start 20.32 140.97)
+		(end 69.85 180.34)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0082b2f5-1581-4e69-b141-dd4aa7df60cb)
 	)
 	(text "A-\n"
 		(exclude_from_sim no)
@@ -3819,18 +3663,6 @@
 		)
 		(uuid "b3f67b42-24c3-421e-815d-92b157f9471b")
 	)
-	(hierarchical_label "VCC"
-		(shape input)
-		(at 237.49 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0b55a85f-1e89-4e52-9afd-c75e5ab51a99")
-	)
 	(hierarchical_label "DAT"
 		(shape output)
 		(at 237.49 91.44 0)
@@ -3857,39 +3689,40 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 237.49 96.52 0)
+		(at 41.91 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "b9e393ca-962a-44b6-97f8-bafe14175f0a")
+		(uuid "bbaa48ee-8f09-4cb5-9d36-1be17eebfbbb")
 	)
-	(hierarchical_label "VDD"
+	(hierarchical_label "5VEXT"
 		(shape input)
-		(at 237.49 86.36 0)
+		(at 39.37 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "dca5b7a3-058a-4fe8-9866-2f0e0657ac50")
+		(uuid "db64eb9e-de06-4a37-a941-91913ee6fc87")
 	)
 	(symbol
-		(lib_id "Load Cell and Amplifier-eagle-import:GND")
-		(at 203.2 86.36 0)
+		(lib_id "power:GND")
+		(at 50.8 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "036a7500-2e95-4f65-90aa-0d756d847062")
-		(property "Reference" "#GND09"
-			(at 203.2 86.36 0)
+		(fields_autoplaced yes)
+		(uuid "066d7335-7187-41df-829c-5dcb9cf675cf")
+		(property "Reference" "#PWR022"
+			(at 50.8 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,16 +3731,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 88.9 0)
+			(at 50.8 156.21 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 86.36 0)
+			(at 50.8 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,7 +3748,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 86.36 0)
+			(at 50.8 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,8 +3756,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 203.2 86.36 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,28 +3766,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "3cf5027d-f028-47d9-ac17-c81ec8932438")
+			(uuid "5d761e7d-b53a-45c7-b16d-d59ea3d51b88")
 		)
 		(instances
 			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "#GND09")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Load Cell and Amplifier-eagle-import:GND")
-		(at 129.54 58.42 0)
+		(lib_id "power:GND")
+		(at 137.16 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0eec8f30-2a21-4300-8dc3-1cc3c33c82f4")
-		(property "Reference" "#GND06"
-			(at 129.54 58.42 0)
+		(fields_autoplaced yes)
+		(uuid "095b3ce0-3f8a-423d-bb8d-56847b41ee72")
+		(property "Reference" "#PWR039"
+			(at 137.16 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3964,16 +3797,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 60.96 0)
+			(at 137.16 109.22 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 58.42 0)
+			(at 137.16 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,7 +3814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 58.42 0)
+			(at 137.16 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,8 +3822,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 129.54 58.42 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,12 +3832,145 @@
 			)
 		)
 		(pin "1"
-			(uuid "d3de8733-4cd6-4480-98ee-e4570858d7fe")
+			(uuid "cdf44893-a0af-46f3-bb71-e39d2816c58d")
 		)
 		(instances
 			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "#GND06")
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dee53bb-a8f9-4ec7-9281-b79e1b21ed63")
+		(property "Reference" "#PWR026"
+			(at 105.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8475c013-4bf5-4c67-9815-d876ca8c1ed5")
+		)
+		(instances
+			(project "Main"
+				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 203.2 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14b49467-f6b8-4a09-91c1-018818f54179")
+		(property "Reference" "DNP1"
+			(at 205.486 77.216 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 205.74 73.406 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.978 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 203.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41e83c46-77d4-4051-b10b-a0a2c98880f8")
+		)
+		(pin "2"
+			(uuid "d85aadba-235d-443d-8df5-c7f0faae7bd3")
+		)
+		(instances
+			(project "Main"
+				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
+					(reference "DNP1")
 					(unit 1)
 				)
 			)
@@ -4081,16 +4046,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Load Cell and Amplifier-eagle-import:GND")
-		(at 137.16 106.68 0)
+		(lib_id "power:+5V")
+		(at 92.71 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2130b613-2868-4627-a986-c55085ded8b1")
-		(property "Reference" "#GND07"
-			(at 137.16 106.68 0)
+		(fields_autoplaced yes)
+		(uuid "17db08e2-2b6e-4965-8cbd-37ffcbb49d43")
+		(property "Reference" "#PWR028"
+			(at 92.71 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,17 +4064,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 134.62 109.22 0)
+		(property "Value" "+5V"
+			(at 95.25 22.8599 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 106.68 0)
+			(at 92.71 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4117,7 +4083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 106.68 0)
+			(at 92.71 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,8 +4091,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 137.16 106.68 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 92.71 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4135,28 +4101,227 @@
 			)
 		)
 		(pin "1"
-			(uuid "52a94441-117f-4741-a70c-b92efd1119b0")
+			(uuid "b514791a-e3a9-4709-88b9-c313878b7af4")
 		)
 		(instances
 			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "#GND07")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Load Cell and Amplifier-eagle-import:VDD")
+		(lib_id "power:+5V")
+		(at 120.65 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "181fabec-23ab-4d6f-9ca6-6aba106d26da")
+		(property "Reference" "#PWR030"
+			(at 120.65 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 123.19 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 120.65 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c27fd695-de6c-44b5-90b8-2f12efdf7a4a")
+		)
+		(instances
+			(project "Main"
+				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31d8213d-b4ac-45fc-b473-aeb2869c55aa")
+		(property "Reference" "#PWR047"
+			(at 203.2 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d4fc836-9004-438a-8601-704d28aaca55")
+		)
+		(instances
+			(project "Main"
+				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34996a95-a806-45fb-b951-5b8536f5cf52")
+		(property "Reference" "#PWR025"
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3517992f-23d1-40f1-b108-ad9a96aec257")
+		)
+		(instances
+			(project "Main"
+				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 193.04 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "29e1df9e-f1f5-446d-a7e9-245497cce81d")
-		(property "Reference" "#SUPPLY06"
-			(at 193.04 68.58 0)
+		(uuid "57307b23-4224-4b29-8086-7c0621a7fdab")
+		(property "Reference" "#PWR036"
+			(at 193.04 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4164,13 +4329,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
-			(at 192.024 65.024 0)
+		(property "Value" "+5V"
+			(at 194.31 66.294 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4191,7 +4356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 193.04 68.58 0)
 			(effects
 				(font
@@ -4201,276 +4366,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7831e1a8-3cbb-4ff8-9fa8-65967fa68dc2")
+			(uuid "1c816f76-878b-4436-a361-e884162fba77")
 		)
 		(instances
 			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "#SUPPLY06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Load Cell and Amplifier-eagle-import:VDD")
-		(at 101.6 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "33232f66-8e2d-4170-b6f5-4be2ff757d56")
-		(property "Reference" "#SUPPLY01"
-			(at 101.6 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 100.584 39.624 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96d41ad3-94e8-4f2f-a2c2-5207fca5b9f3")
-		)
-		(instances
-			(project "Main"
-				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "#SUPPLY01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Load Cell and Amplifier-eagle-import:GND")
-		(at 195.58 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "497e1855-2830-4960-85fb-9e3344f4ec55")
-		(property "Reference" "#GND08"
-			(at 195.58 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 193.04 88.9 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17e09fda-abbf-4b26-b497-e344fd9a88fb")
-		)
-		(instances
-			(project "Main"
-				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "#GND08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Load Cell and Amplifier-eagle-import:GND")
-		(at 99.06 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a6e981c-3a34-491f-941b-70c9584919b6")
-		(property "Reference" "#GND02"
-			(at 99.06 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 88.9 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e260bc74-91ea-4e1f-985f-a532a1b5b88a")
-		)
-		(instances
-			(project "Main"
-				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "#GND02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Load Cell and Amplifier-eagle-import:VCC")
-		(at 129.54 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55dfdda2-a1c9-4a01-8e6f-4de265401a77")
-		(property "Reference" "#SUPPLY03"
-			(at 129.54 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 128.524 39.624 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cffc03c3-72a8-4f2f-afb0-ae9b4b3f21e3")
-		)
-		(instances
-			(project "Main"
-				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "#SUPPLY03")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4795,6 +4696,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 195.58 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78d48949-21e3-4cf8-a89c-c65f438d40da")
+		(property "Reference" "#PWR046"
+			(at 195.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22c60d35-d8e3-416e-8d78-d9eb7903eb66")
+		)
+		(instances
+			(project "Main"
+				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Load Cell and Amplifier-eagle-import:0.1UF-25V-5%(0603)")
 		(at 149.86 101.6 90)
 		(unit 1)
@@ -4865,7 +4832,7 @@
 	)
 	(symbol
 		(lib_id "Load Cell and Amplifier-eagle-import:0.1UF-25V-5%(0603)")
-		(at 101.6 50.8 0)
+		(at 92.71 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4873,7 +4840,7 @@
 		(dnp no)
 		(uuid "883a8ccf-90ee-4ed6-9a1b-3b12c9270d4a")
 		(property "Reference" "C4"
-			(at 103.124 47.879 0)
+			(at 94.234 28.829 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4882,7 +4849,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 103.124 52.959 0)
+			(at 94.234 33.909 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4891,7 +4858,7 @@
 			)
 		)
 		(property "Footprint" "Load Cell and Amplifier:0603-CAP"
-			(at 101.6 50.8 0)
+			(at 92.71 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4900,7 +4867,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 50.8 0)
+			(at 92.71 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4909,7 +4876,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 50.8 0)
+			(at 92.71 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4933,16 +4900,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Load Cell and Amplifier-eagle-import:VCC")
-		(at 114.3 43.18 0)
+		(lib_id "power:+5V")
+		(at 105.41 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8b1cf587-9e49-42fb-bd91-85316d88bc2d")
-		(property "Reference" "#SUPPLY02"
-			(at 114.3 43.18 0)
+		(fields_autoplaced yes)
+		(uuid "8eedfa7a-9724-450f-af35-863e2d26ae3f")
+		(property "Reference" "#PWR029"
+			(at 105.41 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,17 +4918,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 113.284 39.624 0)
+		(property "Value" "+5V"
+			(at 107.95 22.8599 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 43.18 0)
+			(at 105.41 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4969,7 +4937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 43.18 0)
+			(at 105.41 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,8 +4945,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 114.3 43.18 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 105.41 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4987,28 +4955,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "a733a996-4c96-4f98-896d-bc4bf78aa250")
+			(uuid "8693495e-9b63-497d-911f-377637f802c4")
 		)
 		(instances
 			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "#SUPPLY02")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Load Cell and Amplifier-eagle-import:GND")
-		(at 101.6 58.42 0)
+		(lib_id "power:+5V")
+		(at 50.8 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "988344a8-9e80-436d-91dc-efa3bdf4c188")
-		(property "Reference" "#GND03"
-			(at 101.6 58.42 0)
+		(fields_autoplaced yes)
+		(uuid "9aebbad3-e784-4412-9a77-cb0efabe0ef1")
+		(property "Reference" "#PWR023"
+			(at 50.8 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5016,17 +4985,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 99.06 60.96 0)
+		(property "Value" "+5V"
+			(at 53.34 163.8299 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 58.42 0)
+			(at 50.8 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5035,7 +5004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 58.42 0)
+			(at 50.8 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5043,74 +5012,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 101.6 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e9191ce-7c51-47ba-ae4b-90367fe5c5dd")
-		)
-		(instances
-			(project "Main"
-				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "#GND03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Load Cell and Amplifier-eagle-import:GND")
-		(at 114.3 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d210ad5-34e1-4040-9301-b503594679c3")
-		(property "Reference" "#GND05"
-			(at 114.3 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 60.96 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 58.42 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 50.8 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5119,81 +5022,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6ab0b850-6727-49de-92b5-5e8d03498006")
+			(uuid "7c9bb70d-086c-4376-9150-70144eba0d96")
 		)
 		(instances
 			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "#GND05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Load Cell and Amplifier-eagle-import:JUMPER-PAD-2-NC_BY_TRACE")
-		(at 203.2 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a37dae91-790c-4a7a-88f4-fb61e984c106")
-		(property "Reference" "SJ1"
-			(at 200.66 78.74 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "JUMPER-PAD-2-NC_BY_TRACE"
-			(at 210.058 87.376 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Load Cell and Amplifier:PAD-JUMPER-2-NC_BY_TRACE_YES_SILK"
-			(at 203.2 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 203.2 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "600598ae-e27e-4017-a3e8-ee68d9a0076d")
-		)
-		(pin "2"
-			(uuid "8184c0b2-42c1-4db6-8e98-febe7c6f8778")
-		)
-		(instances
-			(project "Main"
-				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "SJ1")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5411,72 +5245,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Load Cell and Amplifier-eagle-import:VCC")
-		(at 142.24 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4bfd9f7-ea7e-4009-a857-84a3ddd524cf")
-		(property "Reference" "#SUPPLY04"
-			(at 142.24 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 141.224 52.324 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df341e51-fd1e-4c35-9e5c-8734f45e35df")
-		)
-		(instances
-			(project "Main"
-				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "#SUPPLY04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "6_pos_connector:214721-0061")
 		(at 53.34 71.12 0)
 		(unit 1)
@@ -5615,16 +5383,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Load Cell and Amplifier-eagle-import:VDD")
-		(at 220.98 83.82 0)
+		(lib_id "power:+5V")
+		(at 142.24 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c88431c7-c8ff-4bc3-848b-32793a36c9f4")
-		(property "Reference" "#SUPPLY09"
-			(at 220.98 83.82 0)
+		(fields_autoplaced yes)
+		(uuid "cfed0f45-8816-4116-bc39-3214f492a387")
+		(property "Reference" "#PWR038"
+			(at 142.24 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5632,17 +5401,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
-			(at 219.964 80.264 0)
+		(property "Value" "+5V"
+			(at 144.78 54.6099 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 83.82 0)
+			(at 142.24 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,7 +5420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 83.82 0)
+			(at 142.24 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5659,74 +5428,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 220.98 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc860c8c-b450-4e1d-8f34-fd43d2ff8083")
-		)
-		(instances
-			(project "Main"
-				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "#SUPPLY09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Load Cell and Amplifier-eagle-import:VCC")
-		(at 203.2 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb1c0cd3-406a-4d5a-95e7-a12c15de58f2")
-		(property "Reference" "#SUPPLY07"
-			(at 203.2 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 202.184 49.784 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 203.2 53.34 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 142.24 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,28 +5438,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "120d30b3-f197-490f-8882-79c331f79467")
+			(uuid "bc8ff76a-1845-44ce-912f-8ca7d27afca0")
 		)
 		(instances
 			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "#SUPPLY07")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Load Cell and Amplifier-eagle-import:GND")
-		(at 220.98 101.6 0)
+		(lib_id "power:GND")
+		(at 78.74 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d4264dc1-7e1c-492f-9e11-8173112b1050")
-		(property "Reference" "#GND010"
-			(at 220.98 101.6 0)
+		(fields_autoplaced yes)
+		(uuid "d3c524c1-eddb-4e95-b822-44d74282d450")
+		(property "Reference" "#PWR033"
+			(at 78.74 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5765,16 +5469,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 104.14 0)
+			(at 78.74 93.98 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 101.6 0)
+			(at 78.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5783,7 +5486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 101.6 0)
+			(at 78.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5791,74 +5494,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 220.98 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b235e068-ef39-4881-9a4d-5341026f6eff")
-		)
-		(instances
-			(project "Main"
-				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "#GND010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Load Cell and Amplifier-eagle-import:VCC")
-		(at 160.02 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d52009d5-6cdc-47ba-b2dc-e6b115ecb777")
-		(property "Reference" "#SUPPLY05"
-			(at 160.02 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 159.004 65.024 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 68.58 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5867,78 +5504,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "32f9a5d2-83f9-4dc0-b7c4-9ff6224c0e86")
+			(uuid "c1318e37-e9ac-4803-98f0-50b2fd9f3a78")
 		)
 		(instances
 			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "#SUPPLY05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Load Cell and Amplifier-eagle-import:VCC")
-		(at 215.9 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7dd0569-3ca0-4db3-93e6-72aac9eb64f1")
-		(property "Reference" "#SUPPLY08"
-			(at 215.9 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 214.884 80.264 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f197204e-434e-42d2-be09-ce6bfe885897")
-		)
-		(instances
-			(project "Main"
-				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "#SUPPLY08")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -5946,7 +5517,7 @@
 	)
 	(symbol
 		(lib_id "Load Cell and Amplifier-eagle-import:0.1UF-25V-5%(0603)")
-		(at 114.3 50.8 0)
+		(at 105.41 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5954,7 +5525,7 @@
 		(dnp no)
 		(uuid "daf50a48-a25a-450e-9d4b-ec319376489e")
 		(property "Reference" "C6"
-			(at 115.824 47.879 0)
+			(at 106.934 28.829 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5963,7 +5534,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 115.824 52.959 0)
+			(at 106.934 33.909 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5972,7 +5543,7 @@
 			)
 		)
 		(property "Footprint" "Load Cell and Amplifier:0603-CAP"
-			(at 114.3 50.8 0)
+			(at 105.41 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5981,7 +5552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 50.8 0)
+			(at 105.41 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5990,7 +5561,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 50.8 0)
+			(at 105.41 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6008,6 +5579,72 @@
 			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 160.02 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcaef558-e2dc-4f6f-ba65-3a0825f04f4e")
+		(property "Reference" "#PWR037"
+			(at 160.02 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 160.528 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 160.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59924904-56a5-4b5d-80dd-b72c24b10f98")
+		)
+		(instances
+			(project "Main"
+				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -6083,16 +5720,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Load Cell and Amplifier-eagle-import:GND")
-		(at 78.74 86.36 0)
+		(lib_id "power:GND")
+		(at 99.06 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e5b1f5c7-5fcd-40a3-b3be-37f294426442")
-		(property "Reference" "#GND01"
-			(at 78.74 86.36 0)
+		(fields_autoplaced yes)
+		(uuid "e07ad490-6b95-493d-9c64-290e391788a3")
+		(property "Reference" "#PWR032"
+			(at 99.06 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6101,16 +5739,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 88.9 0)
+			(at 99.06 88.9 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 86.36 0)
+			(at 99.06 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6119,7 +5756,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 86.36 0)
+			(at 99.06 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6127,8 +5764,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 78.74 86.36 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6137,12 +5774,145 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed099290-bbc3-45e5-a5b1-0ee8807fb01b")
+			(uuid "205ce1d1-0ed9-4daf-85ca-dd57441dbd28")
 		)
 		(instances
 			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "#GND01")
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 203.2 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e35abf42-4dbf-40ae-a17c-02c6abcbc089")
+		(property "Reference" "#PWR035"
+			(at 203.2 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 205.74 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 203.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c1acfc7-416f-40f9-a128-a65fb713aa26")
+		)
+		(instances
+			(project "Main"
+				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e64406d5-a8ad-4d04-85df-88df49f661e1")
+		(property "Reference" "#PWR031"
+			(at 109.22 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cc18315-dd99-44d3-90c2-9f92fc7a7b13")
+		)
+		(instances
+			(project "Main"
+				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -6219,7 +5989,7 @@
 	)
 	(symbol
 		(lib_id "Load Cell and Amplifier-eagle-import:10UF50V20%(1210)")
-		(at 129.54 50.8 0)
+		(at 120.65 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6227,7 +5997,7 @@
 		(dnp no)
 		(uuid "e8420b6f-5816-4494-aa96-615f49d37ff6")
 		(property "Reference" "C7"
-			(at 131.064 47.879 0)
+			(at 122.174 28.829 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6236,7 +6006,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 131.064 52.959 0)
+			(at 122.174 33.909 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6245,7 +6015,7 @@
 			)
 		)
 		(property "Footprint" "Load Cell and Amplifier:1210"
-			(at 129.54 50.8 0)
+			(at 120.65 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6254,7 +6024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 50.8 0)
+			(at 120.65 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6263,7 +6033,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 50.8 0)
+			(at 120.65 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6281,72 +6051,6 @@
 			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Load Cell and Amplifier-eagle-import:GND")
-		(at 109.22 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f950fdfc-0739-4600-8066-8ed7bb415a3c")
-		(property "Reference" "#GND04"
-			(at 109.22 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 106.68 88.9 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0abd48b-2fd7-4862-8fca-51f9c1256ea2")
-		)
-		(instances
-			(project "Main"
-				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "#GND04")
 					(unit 1)
 				)
 			)
@@ -6416,6 +6120,72 @@
 			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcca001a-f26c-4323-8a48-6592f449893a")
+		(property "Reference" "#PWR027"
+			(at 120.65 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8f1a375-b249-41d0-802d-95799342fc1f")
+		)
+		(instances
+			(project "Main"
+				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)

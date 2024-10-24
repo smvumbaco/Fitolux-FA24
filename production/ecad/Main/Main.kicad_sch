@@ -1335,7 +1335,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 53.34) (xy 209.55 53.34)
+			(xy 204.47 53.34) (xy 209.55 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1385,7 +1385,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.61 96.52) (xy 181.61 26.67)
+			(xy 186.69 96.52) (xy 186.69 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1435,7 +1435,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 129.54) (xy 124.46 129.54)
+			(xy 120.65 129.54) (xy 125.73 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1595,7 +1595,7 @@
 	)
 	(polyline
 		(pts
-			(xy 120.65 96.52) (xy 181.61 96.52)
+			(xy 120.65 96.52) (xy 186.69 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1725,7 +1725,7 @@
 	)
 	(polyline
 		(pts
-			(xy 118.11 26.67) (xy 118.11 96.52)
+			(xy 106.68 26.67) (xy 106.68 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1795,7 +1795,7 @@
 	)
 	(polyline
 		(pts
-			(xy 118.11 26.67) (xy 180.34 26.67)
+			(xy 106.68 26.67) (xy 180.34 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1815,7 +1815,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.61 26.67) (xy 180.34 26.67)
+			(xy 186.69 26.67) (xy 180.34 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1895,7 +1895,7 @@
 	)
 	(polyline
 		(pts
-			(xy 118.11 96.52) (xy 120.65 96.52)
+			(xy 106.68 96.52) (xy 120.65 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2005,7 +2005,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 57.15) (xy 209.55 57.15)
+			(xy 204.47 57.15) (xy 209.55 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2013,19 +2013,20 @@
 		)
 		(uuid "ff0239a0-f6d9-4d5c-a790-41b92e8eb6ea")
 	)
-	(text "Still need:\n- weight sensor\n- ADC (maybe)\n- "
+	(text "Still need:\n- weight sensor\n- ADC (maybe)"
 		(exclude_from_sim no)
 		(at 157.226 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "0c09652d-d6a1-45c9-ac55-434a65574056")
 	)
 	(text "Raspberry Pi W Zero 2 Pins"
 		(exclude_from_sim no)
-		(at 146.304 30.988 0)
+		(at 146.304 29.972 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2040,6 +2041,7 @@
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "f5efeeec-3165-4189-a7f0-65d7059b90ec")
 	)
@@ -2265,7 +2267,7 @@
 	)
 	(global_label "ANO_SW2"
 		(shape input)
-		(at 203.2 53.34 180)
+		(at 204.47 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2275,7 +2277,7 @@
 		)
 		(uuid "107319dc-97dd-4a30-a6f1-fa2e0cdb0b9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.6272 53.34 0)
+			(at 192.8972 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2353,7 +2355,7 @@
 	)
 	(global_label "ANO_SW3"
 		(shape input)
-		(at 201.93 57.15 180)
+		(at 204.47 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2363,7 +2365,7 @@
 		)
 		(uuid "1a43edb6-fb3d-4121-aa8a-3efd4f1bf864")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.3572 57.15 0)
+			(at 192.8972 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +2487,7 @@
 	)
 	(global_label "3V3EXT"
 		(shape input)
-		(at 124.46 129.54 0)
+		(at 125.73 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2495,7 +2497,7 @@
 		)
 		(uuid "31af9ffe-4614-461a-85e8-5f73b3ddb4c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.2789 129.54 0)
+			(at 135.5489 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
