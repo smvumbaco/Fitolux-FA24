@@ -1470,6 +1470,16 @@
 		)
 		(uuid "6d6e16f5-91e0-4b17-8d58-f14fd99524cd")
 	)
+	(text "ANO_DIAL may need I2C lines, so either we have multiple slaves or give up the bus for the BMS SOC"
+		(exclude_from_sim no)
+		(at 139.446 102.362 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cbb58c36-3efa-41e4-b3f9-4a1c74cf7c13")
+	)
 	(text "SCL"
 		(exclude_from_sim no)
 		(at 162.052 115.824 0)
