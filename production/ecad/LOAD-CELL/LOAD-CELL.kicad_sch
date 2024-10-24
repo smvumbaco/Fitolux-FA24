@@ -2616,6 +2616,10 @@
 		(uuid "4ddd0c61-0e2c-408e-862a-3a2e35e94374")
 	)
 	(no_connect
+		(at 190.5 86.36)
+		(uuid "7a018d41-cf1f-4932-b8b2-b658f0a9b3d7")
+	)
+	(no_connect
 		(at 76.2 83.82)
 		(uuid "8928b5b1-6840-4702-8d43-c78ef7b5f563")
 	)
@@ -2775,7 +2779,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 91.44) (xy 237.49 91.44)
+			(xy 190.5 91.44) (xy 210.82 91.44)
 		)
 		(stroke
 			(width 0.1524)
@@ -2785,7 +2789,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 96.52) (xy 195.58 96.52)
+			(xy 190.5 96.52) (xy 210.82 96.52)
 		)
 		(stroke
 			(width 0.1524)
@@ -2822,16 +2826,6 @@
 			(type solid)
 		)
 		(uuid "2833897b-3697-44de-83a3-7f245e81330a")
-	)
-	(wire
-		(pts
-			(xy 195.58 93.98) (xy 237.49 93.98)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "295fc985-e853-44f1-8804-7453fa121160")
 	)
 	(wire
 		(pts
@@ -3002,16 +2996,6 @@
 			(type solid)
 		)
 		(uuid "63e672df-3599-416e-a46d-0ffd050135d7")
-	)
-	(wire
-		(pts
-			(xy 195.58 96.52) (xy 195.58 93.98)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "67a96224-d801-44ad-9f93-fb60ae9a57da")
 	)
 	(wire
 		(pts
@@ -3619,28 +3603,6 @@
 		)
 		(uuid "0d93635a-7af2-4321-8689-3c969e67544e")
 	)
-	(label "SCK"
-		(at 215.9 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "57faa3f6-55e9-4fc0-8278-e842ffa7a9bb")
-	)
-	(label "DAT"
-		(at 215.9 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "5ddc43af-6c89-401a-8d1b-d8630418e6b0")
-	)
 	(label "A+"
 		(at 81.28 78.74 0)
 		(fields_autoplaced yes)
@@ -3665,7 +3627,7 @@
 	)
 	(hierarchical_label "DAT"
 		(shape output)
-		(at 237.49 91.44 0)
+		(at 210.82 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3677,7 +3639,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape output)
-		(at 237.49 93.98 0)
+		(at 210.82 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
