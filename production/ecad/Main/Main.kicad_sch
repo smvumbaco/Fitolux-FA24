@@ -3426,7 +3426,7 @@
 			(uuid "28661ad9-6ff2-45e6-b815-00a8f865cb48")
 		)
 		(instances
-			(project ""
+			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658"
 					(reference "J8")
 					(unit 1)
