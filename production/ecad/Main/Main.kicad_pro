@@ -598,6 +598,10 @@
     [
       "1fa8e4ec-3b8f-41b7-8956-25ba2b294586",
       "Load_Cell_and_Amplifier"
+    ],
+    [
+      "2c3b99aa-7fc3-47b6-80fb-b33e75ed001e",
+      "IMU"
     ]
   ],
   "text_variables": {}
