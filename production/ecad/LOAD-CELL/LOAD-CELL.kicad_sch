@@ -4504,7 +4504,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Load Cell and Amplifier:SO16"
+		(property "Footprint" "Load Cell and Amplifier:HX711"
 			(at 177.8 88.9 0)
 			(effects
 				(font
