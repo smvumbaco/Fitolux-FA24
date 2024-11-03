@@ -4504,7 +4504,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Load Cell and Amplifier:SO16"
+		(property "Footprint" "LoadCellFootprints:HX711"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -5232,7 +5232,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2147210061"
+		(property "Footprint" "LoadCellFootprints:6_pos_connector"
 			(at 72.39 166.04 0)
 			(effects
 				(font

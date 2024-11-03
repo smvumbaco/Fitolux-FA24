@@ -3255,7 +3255,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e645e40-8d18-4670-9099-38646e4a3abc")
-		(property "Reference" "DNP"
+		(property "Reference" "DNP2"
 			(at 231.394 48.006 90)
 			(effects
 				(font
@@ -3307,7 +3307,7 @@
 		(instances
 			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/8907b1b2-1248-4544-8d7d-33764869f691"
-					(reference "DNP")
+					(reference "DNP2")
 					(unit 1)
 				)
 			)
