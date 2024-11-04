@@ -431,7 +431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2147210080"
+		(property "Footprint" "footprints:8positionheader"
 			(at 158.75 195.25 0)
 			(effects
 				(font

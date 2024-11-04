@@ -3896,7 +3896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:10k"
+		(property "Footprint" "Footprints:10k"
 			(at 204.978 74.93 90)
 			(effects
 				(font
@@ -3965,7 +3965,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:100ohm"
+		(property "Footprint" "Footprints:100ohm"
 			(at 139.7 111.76 0)
 			(effects
 				(font
@@ -4366,7 +4366,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:10uF"
+		(property "Footprint" "Footprints:10uF"
 			(at 109.22 78.74 0)
 			(effects
 				(font
@@ -4435,7 +4435,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:inductor"
+		(property "Footprint" "Footprints:inductor"
 			(at 124.46 71.12 0)
 			(effects
 				(font
@@ -4504,7 +4504,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:HX711"
+		(property "Footprint" "Footprints:HX711"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -4615,7 +4615,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:100ohm"
+		(property "Footprint" "Footprints:100ohm"
 			(at 139.7 124.46 0)
 			(effects
 				(font
@@ -4750,7 +4750,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:0p1uF"
+		(property "Footprint" "Footprints:0p1uF"
 			(at 149.86 101.6 0)
 			(effects
 				(font
@@ -4819,7 +4819,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:0p1uF"
+		(property "Footprint" "Footprints:0p1uF"
 			(at 92.71 31.75 0)
 			(effects
 				(font
@@ -5022,7 +5022,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:0p1uF"
+		(property "Footprint" "Footprints:0p1uF"
 			(at 147.32 119.38 0)
 			(effects
 				(font
@@ -5091,7 +5091,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:8p2k"
+		(property "Footprint" "Footprints:8p2k"
 			(at 137.16 93.98 0)
 			(effects
 				(font
@@ -5161,7 +5161,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:mmbt4403"
+		(property "Footprint" "Footprints:mmbt4403"
 			(at 144.78 63.5 0)
 			(effects
 				(font
@@ -5232,7 +5232,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:6_pos_connector"
+		(property "Footprint" "Footprints:6_pos_connector"
 			(at 72.39 166.04 0)
 			(effects
 				(font
@@ -5504,7 +5504,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:0p1uF"
+		(property "Footprint" "Footprints:0p1uF"
 			(at 105.41 31.75 0)
 			(effects
 				(font
@@ -5639,7 +5639,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:0p1uF"
+		(property "Footprint" "Footprints:0p1uF"
 			(at 99.06 78.74 0)
 			(effects
 				(font
@@ -5907,7 +5907,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:10k"
+		(property "Footprint" "Footprints:10k"
 			(at 203.2 60.96 0)
 			(effects
 				(font
@@ -5976,7 +5976,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:10uF"
+		(property "Footprint" "Footprints:10uF"
 			(at 120.65 31.75 0)
 			(effects
 				(font
@@ -6045,7 +6045,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:20k"
+		(property "Footprint" "Footprints:20k"
 			(at 137.16 78.74 0)
 			(effects
 				(font

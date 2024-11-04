@@ -2693,7 +2693,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2147210020"
+		(property "Footprint" "footprints:2positionheader"
 			(at 76.2 -17.45 0)
 			(effects
 				(font
@@ -3020,7 +3020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2147210020"
+		(property "Footprint" "footprints:2positionheader"
 			(at 76.2 -51.74 0)
 			(effects
 				(font
@@ -3212,7 +3212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2147210020"
+		(property "Footprint" "footprints:2positionheader"
 			(at 182.88 -9.83 0)
 			(effects
 				(font
