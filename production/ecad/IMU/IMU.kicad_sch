@@ -467,7 +467,7 @@
 			(uuid "97be314a-2368-4458-a8e8-00ff8d77a4c6")
 		)
 		(instances
-			(project ""
+			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/2c3b99aa-7fc3-47b6-80fb-b33e75ed001e"
 					(reference "J1")
 					(unit 1)

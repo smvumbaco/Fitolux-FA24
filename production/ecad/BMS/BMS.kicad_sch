@@ -2842,7 +2842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e56b263-bf19-46ec-b07c-ab1866805d1c")
-		(property "Reference" "R9"
+		(property "Reference" "DNP"
 			(at 237.49 34.29 90)
 			(effects
 				(font
@@ -2894,7 +2894,7 @@
 		(instances
 			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/8907b1b2-1248-4544-8d7d-33764869f691"
-					(reference "R9")
+					(reference "DNP")
 					(unit 1)
 				)
 			)
@@ -3155,7 +3155,7 @@
 			(uuid "adbcce7c-f7b1-45f5-94a3-97b606bb1faa")
 		)
 		(instances
-			(project ""
+			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/8907b1b2-1248-4544-8d7d-33764869f691"
 					(reference "J11")
 					(unit 1)
