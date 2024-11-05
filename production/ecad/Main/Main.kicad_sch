@@ -3602,7 +3602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fitolux:15posheader"
+		(property "Footprint" "Footprints:15posheader"
 			(at 135.89 158.42 0)
 			(effects
 				(font

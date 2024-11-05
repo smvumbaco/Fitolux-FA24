@@ -363,7 +363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fitolux:6_pos_connector"
+		(property "Footprint" "Footprints:6_pos_connector"
 			(at 132.08 190.17 0)
 			(effects
 				(font

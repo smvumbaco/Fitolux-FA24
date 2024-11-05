@@ -2756,7 +2756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADC-028-x-T/R-PA10T_ADM"
+		(property "Footprint" "Footprints:ADC-028-x-T&slash_R-PA10T_ADM"
 			(at 226.06 38.1 0)
 			(effects
 				(font
@@ -3038,7 +3038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2147210040:MOLEX_2147210040"
+		(property "Footprint" "Footprints:4positionheader"
 			(at 57.15 142.24 0)
 			(effects
 				(font
@@ -3767,7 +3767,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS75233QPWPREP:TPS75233QPWPREP"
+		(property "Footprint" "Footprints:TPS75233QPWPREP"
 			(at 118.11 59.69 0)
 			(effects
 				(font
