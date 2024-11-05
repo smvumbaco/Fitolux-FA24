@@ -3287,7 +3287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RHDR16W82P0X254_1X16_4114X250X865P"
+		(property "Footprint" "Footprints:15posheader"
 			(at 149.86 5.41 0)
 			(effects
 				(font
@@ -3602,7 +3602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RHDR16W82P0X254_1X16_4114X250X865P"
+		(property "Footprint" "Fitolux:15posheader"
 			(at 135.89 158.42 0)
 			(effects
 				(font
