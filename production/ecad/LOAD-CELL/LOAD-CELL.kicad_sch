@@ -3880,7 +3880,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14b49467-f6b8-4a09-91c1-018818f54179")
-		(property "Reference" "DNP3"
+		(property "Reference" "DNP1"
 			(at 205.486 77.216 90)
 			(effects
 				(font
@@ -3896,7 +3896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "LoadCellFootprints:10k"
 			(at 204.978 74.93 90)
 			(effects
 				(font
@@ -3932,7 +3932,7 @@
 		(instances
 			(project "Main"
 				(path "/a34d77bc-8f6a-417e-a206-3165e6c5c658/1fa8e4ec-3b8f-41b7-8956-25ba2b294586"
-					(reference "DNP3")
+					(reference "DNP1")
 					(unit 1)
 				)
 			)
@@ -3965,7 +3965,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Load Cell and Amplifier:0603-RES"
+		(property "Footprint" "LoadCellFootprints:100ohm"
 			(at 139.7 111.76 0)
 			(effects
 				(font
@@ -4366,7 +4366,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Load Cell and Amplifier:1210"
+		(property "Footprint" "LoadCellFootprints:10uF"
 			(at 109.22 78.74 0)
 			(effects
 				(font
@@ -4435,7 +4435,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Load Cell and Amplifier:0805"
+		(property "Footprint" "LoadCellFootprints:inductor"
 			(at 124.46 71.12 0)
 			(effects
 				(font
@@ -4504,7 +4504,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Load Cell and Amplifier:HX711"
+		(property "Footprint" "LoadCellFootprints:HX711"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -4615,7 +4615,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Load Cell and Amplifier:0603-RES"
+		(property "Footprint" "LoadCellFootprints:100ohm"
 			(at 139.7 124.46 0)
 			(effects
 				(font
@@ -4750,7 +4750,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Load Cell and Amplifier:0603-CAP"
+		(property "Footprint" "LoadCellFootprints:0p1uF"
 			(at 149.86 101.6 0)
 			(effects
 				(font
@@ -4819,7 +4819,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Load Cell and Amplifier:0603-CAP"
+		(property "Footprint" "LoadCellFootprints:0p1uF"
 			(at 92.71 31.75 0)
 			(effects
 				(font
@@ -5022,7 +5022,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Load Cell and Amplifier:0603-CAP"
+		(property "Footprint" "LoadCellFootprints:0p1uF"
 			(at 147.32 119.38 0)
 			(effects
 				(font
@@ -5091,7 +5091,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Load Cell and Amplifier:0603-RES"
+		(property "Footprint" "LoadCellFootprints:8p2k"
 			(at 137.16 93.98 0)
 			(effects
 				(font
@@ -5161,7 +5161,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Load Cell and Amplifier:SOT23-3"
+		(property "Footprint" "LoadCellFootprints:mmbt4403"
 			(at 144.78 63.5 0)
 			(effects
 				(font
@@ -5232,7 +5232,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2147210061"
+		(property "Footprint" "LoadCellFootprints:6_pos_connector"
 			(at 72.39 166.04 0)
 			(effects
 				(font
@@ -5504,7 +5504,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Load Cell and Amplifier:0603-CAP"
+		(property "Footprint" "LoadCellFootprints:0p1uF"
 			(at 105.41 31.75 0)
 			(effects
 				(font
@@ -5639,7 +5639,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Load Cell and Amplifier:0603-CAP"
+		(property "Footprint" "LoadCellFootprints:0p1uF"
 			(at 99.06 78.74 0)
 			(effects
 				(font
@@ -5907,7 +5907,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Load Cell and Amplifier:0603-RES"
+		(property "Footprint" "LoadCellFootprints:10k"
 			(at 203.2 60.96 0)
 			(effects
 				(font
@@ -5976,7 +5976,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Load Cell and Amplifier:1210"
+		(property "Footprint" "LoadCellFootprints:10uF"
 			(at 120.65 31.75 0)
 			(effects
 				(font
@@ -6045,7 +6045,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Load Cell and Amplifier:0603-RES"
+		(property "Footprint" "LoadCellFootprints:20k"
 			(at 137.16 78.74 0)
 			(effects
 				(font
