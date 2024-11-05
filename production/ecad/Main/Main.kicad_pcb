@@ -403,7 +403,7 @@
 		(descr "24-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
 		(tags "SSOP 0.65")
 		(property "Reference" "U1"
-			(at 0 -5.25 360)
+			(at 0 -5.25 0)
 			(layer "F.SilkS")
 			(uuid "ed679603-cda2-4216-ba76-10835eb20f94")
 			(effects
@@ -414,7 +414,7 @@
 			)
 		)
 		(property "Value" "TB6612FNG"
-			(at 0 5.25 360)
+			(at 0 5.25 0)
 			(layer "F.Fab")
 			(uuid "c7ccd545-1751-4f10-9329-021bac094775")
 			(effects
@@ -628,7 +628,7 @@
 			(uuid "98f14506-65ef-4372-9802-480b32ef72ff")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "97c08b21-ee08-43e5-8ac0-7d29a232fc50")
 			(effects
@@ -1040,7 +1040,7 @@
 		(descr "214721-0020")
 		(tags "Connector")
 		(property "Reference" "J5"
-			(at 0 -0.05 360)
+			(at 0 -0.05 0)
 			(layer "F.SilkS")
 			(uuid "0ba4ead5-40d9-4ce0-a106-17fa829bb8b3")
 			(effects
@@ -1051,7 +1051,7 @@
 			)
 		)
 		(property "Value" "214721-0020"
-			(at 0 -0.05 360)
+			(at 0 -0.05 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "00464fb5-2e33-4a82-80f1-b1bb34fa7111")
@@ -1340,7 +1340,7 @@
 			(uuid "7cf10c05-12ae-46bc-a2e8-7a5ff6c1208b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.05 360)
+			(at 0 -0.05 0)
 			(layer "F.Fab")
 			(uuid "0569796d-1fb3-4170-b5b9-41a9b2e341ee")
 			(effects
@@ -1404,7 +1404,7 @@
 		(at 99 55.5 90)
 		(descr "<b>TO-236</b> ITT Intermetall")
 		(property "Reference" "Q3"
-			(at 1.271305 -2.542625 270)
+			(at 1.271305 -2.542625 -90)
 			(layer "F.SilkS")
 			(uuid "c30a8bbe-2ec7-4c8e-80a8-25f6149a020d")
 			(effects
@@ -1415,7 +1415,7 @@
 			)
 		)
 		(property "Value" "MMBT4403"
-			(at 3.814945 2.543315 270)
+			(at 3.814945 2.543315 -90)
 			(layer "F.Fab")
 			(uuid "5a6f25e3-9495-4969-92c8-e5e0d8d5f8fc")
 			(effects
@@ -1426,7 +1426,7 @@
 			)
 		)
 		(property "Footprint" "LoadCellFootprints:mmbt4403"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "be1d0d4f-d521-4c40-ba98-847d58227d21")
@@ -1438,7 +1438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "80a3c4e6-f4aa-46db-9362-6cf562f300f0")
@@ -1450,7 +1450,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e32cdb96-063d-4d6b-8bbf-31567bcd93d4")
@@ -1577,7 +1577,7 @@
 		(uuid "1c60b306-f80b-4d2c-972d-2964c31026ca")
 		(at 91.17 68.175 90)
 		(property "Reference" "R4"
-			(at 0.532 -1.4064 270)
+			(at 0.532 -1.4064 -90)
 			(layer "F.SilkS")
 			(uuid "20c4a78a-8f6e-41e8-b0d9-b863a211efcd")
 			(effects
@@ -1588,7 +1588,7 @@
 			)
 		)
 		(property "Value" "8.2K"
-			(at 3.3768 1.3436 270)
+			(at 3.3768 1.3436 -90)
 			(layer "F.Fab")
 			(uuid "d8a037c0-dece-424a-9e99-63022bcdd239")
 			(effects
@@ -1599,7 +1599,7 @@
 			)
 		)
 		(property "Footprint" "LoadCellFootprints:8p2k"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f176bd2c-8970-49d5-aaad-db4697f4b253")
@@ -1611,7 +1611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "68854c7b-6c58-4e33-a910-2fee00088375")
@@ -1623,7 +1623,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "00f1bd0c-f012-47fd-98c0-f91f55363b42")
@@ -4084,7 +4084,7 @@
 		(descr "214721-0020")
 		(tags "Connector")
 		(property "Reference" "J4"
-			(at 0 -0.05 360)
+			(at 0 -0.05 0)
 			(layer "F.SilkS")
 			(uuid "e69f10ff-4188-4387-9787-4da0f026ee22")
 			(effects
@@ -4095,7 +4095,7 @@
 			)
 		)
 		(property "Value" "214721-0020"
-			(at 0 -0.05 360)
+			(at 0 -0.05 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "918cb419-41c2-45c8-aaf6-dec169c82c64")
@@ -4384,7 +4384,7 @@
 			(uuid "3de273e3-7166-4eb8-983a-283612a6ef36")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.05 360)
+			(at 0 -0.05 0)
 			(layer "F.Fab")
 			(uuid "f4f67f82-abb4-44eb-ab21-ed7c8e75d4b3")
 			(effects
@@ -5099,7 +5099,7 @@
 		(descr "GaN Systems GaNPX GS66504B Package, https://gansystems.com/wp-content/uploads/2020/04/GS66504B-DS-Rev-200402.pdf")
 		(tags "ganpx gs66504b")
 		(property "Reference" "Q1"
-			(at 0 -4.21 270)
+			(at 0 -4.21 -90)
 			(layer "F.SilkS")
 			(uuid "7581cecd-5f2d-42e8-84ba-7059c1b7a8a8")
 			(effects
@@ -5302,7 +5302,7 @@
 			(uuid "a11ffe57-c62d-482f-b8bc-30c4fb0cfbef")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c4320ec7-d217-4178-9e3e-c49ab610b9f5")
 			(effects
@@ -5387,7 +5387,7 @@
 		(uuid "70190c24-08e0-4cc6-8a6c-c519246baef4")
 		(at 83.5 115 90)
 		(property "Reference" "U4"
-			(at 0.5 -4 270)
+			(at 0.5 -4 -90)
 			(layer "F.SilkS")
 			(uuid "3b452845-3422-4469-ba70-78c9190411f2")
 			(effects
@@ -5398,7 +5398,7 @@
 			)
 		)
 		(property "Value" "TPS75233QPWPREP"
-			(at 0.5 -4 270)
+			(at 0.5 -4 -90)
 			(layer "F.Fab")
 			(uuid "e78668b1-5497-4e8f-ac1d-d9d288f5c9cc")
 			(effects
@@ -6351,7 +6351,7 @@
 		(uuid "78c437e1-8444-4bab-9e78-83a8b7a35ab1")
 		(at 94.17 72.675)
 		(property "Reference" "R6"
-			(at 0.532 -1.4064 360)
+			(at 0.532 -1.4064 0)
 			(layer "F.SilkS")
 			(uuid "50dc166f-61af-4aea-b28b-a3cf88266388")
 			(effects
@@ -6362,7 +6362,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 3.3768 1.3436 360)
+			(at 3.3768 1.3436 0)
 			(layer "F.Fab")
 			(uuid "15c0310f-8f61-46ea-8d35-60a3beb619bc")
 			(effects
@@ -6373,7 +6373,7 @@
 			)
 		)
 		(property "Footprint" "LoadCellFootprints:100ohm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b7193bed-432d-42ec-9cc0-af8ae613a87d")
@@ -6385,7 +6385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e172778b-1407-4ce7-8a28-23dc5663cf56")
@@ -6397,7 +6397,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "97ea9ef1-8b87-4315-90e6-67b8fbc1d000")
@@ -6957,7 +6957,7 @@
 		(uuid "85838f1c-2848-4960-a8c8-2bb631eb9690")
 		(at 91.17 71.675 90)
 		(property "Reference" "R5"
-			(at 0.532 -1.4064 270)
+			(at 0.532 -1.4064 -90)
 			(layer "F.SilkS")
 			(uuid "106de0f2-10d8-4326-b3f6-80a3e2f2479d")
 			(effects
@@ -6968,7 +6968,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 3.3768 1.3436 270)
+			(at 3.3768 1.3436 -90)
 			(layer "F.Fab")
 			(uuid "2efcdea2-6d73-424d-82fc-9f0047520686")
 			(effects
@@ -6979,7 +6979,7 @@
 			)
 		)
 		(property "Footprint" "LoadCellFootprints:100ohm"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f99e1244-6701-4f60-9eb5-ae7451795759")
@@ -6991,7 +6991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c853df08-c733-4526-a97a-18aade3facb9")
@@ -7003,7 +7003,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b648047b-332f-4432-bacf-79937347e456")
@@ -7349,7 +7349,7 @@
 			(uuid "075b6f68-7436-474c-81eb-e407d95070d6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "c5faf036-9f4e-46dd-818a-0f5371a41233")
 			(effects
@@ -7770,7 +7770,7 @@
 		(descr "61301611821")
 		(tags "Connector")
 		(property "Reference" "J9"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.SilkS")
 			(uuid "ec49c3a9-b374-4990-9a24-29280714982e")
 			(effects
@@ -7781,7 +7781,7 @@
 			)
 		)
 		(property "Value" "61301611821"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "65c41d5c-4ff9-4184-b584-dbcb3cceddbc")
@@ -8044,7 +8044,7 @@
 			(uuid "394fc445-6a4c-4e2f-83a5-79a20fdd57ee")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "f0016d3e-5507-471f-9c54-934d74a1dc5f")
 			(effects
@@ -10406,7 +10406,7 @@
 		(uuid "f671a428-24d5-4f19-9679-fff2be93a70f")
 		(at 91.17 64.675 90)
 		(property "Reference" "R3"
-			(at -0.21 -1.05 270)
+			(at -0.21 -1.05 -90)
 			(layer "F.SilkS")
 			(uuid "1f006ebc-e81d-469f-8800-f0d7a9153139")
 			(effects
@@ -10417,7 +10417,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 1.54 1.05 270)
+			(at 1.54 1.05 -90)
 			(layer "F.Fab")
 			(uuid "ea0f2cec-b501-4874-8d2a-cfad8ad49a48")
 			(effects
@@ -10428,7 +10428,7 @@
 			)
 		)
 		(property "Footprint" "LoadCellFootprints:20k"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "848bccb3-e3f8-4c38-ad29-cb8222b3a71b")
@@ -10440,7 +10440,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8ed5e3ad-cbe7-4052-aabd-688fa5a67d4f")
@@ -10452,7 +10452,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1bbea859-2df4-4a96-a482-61d5c8e6b12a")
@@ -10728,5 +10728,70 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "ef0552e4-c6fd-47af-b76c-12f76ef307a4")
+	)
+	(zone
+		(net 3)
+		(net_name "5VEXT")
+		(layer "In1.Cu")
+		(uuid "4ba7fb05-1546-492c-bdfa-77bb15f6c0ac")
+		(hatch edge 0.5)
+		(priority 1)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 52 51.5) (xy 108 51.5) (xy 108 91.5) (xy 51.5 91.5)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "3V3EXT")
+		(layer "In1.Cu")
+		(uuid "4d25e2ec-f910-4954-a866-c8ba9cfaf9b0")
+		(hatch edge 0.5)
+		(priority 2)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 51.5 91.5) (xy 108 91.5) (xy 108 130) (xy 51.5 130)
+			)
+		)
+	)
+	(zone
+		(net 2)
+		(net_name "GND")
+		(layer "In2.Cu")
+		(uuid "0c211ced-e35e-49b8-acca-54bf80ddc6f7")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 52 51.5) (xy 108 51.5) (xy 108 130) (xy 51.5 130)
+			)
+		)
 	)
 )
