@@ -451,6 +451,7 @@
 		(path "/56db885d-6988-4ba3-9c6c-3dd30ffbc985/7b2fe099-dbc3-433b-85e2-b7df41ffc00a")
 		(sheetname "ANO Dial")
 		(sheetfile "../ANO-DIAL/ANO-DIAL.kicad_sch")
+		(clearance 0.05)
 		(attr smd)
 		(fp_line
 			(start -0.7 -0.35)
@@ -2194,6 +2195,7 @@
 		(path "/56db885d-6988-4ba3-9c6c-3dd30ffbc985/9b1908bd-11d3-4af2-800d-051a8147cb16")
 		(sheetname "ANO Dial")
 		(sheetfile "../ANO-DIAL/ANO-DIAL.kicad_sch")
+		(clearance 0.05)
 		(attr smd)
 		(fp_line
 			(start 0.7 0.35)
@@ -3319,6 +3321,7 @@
 		(path "/8907b1b2-1248-4544-8d7d-33764869f691/30452cfc-abf4-484c-9bbd-cdc742be17ed")
 		(sheetname "BMS")
 		(sheetfile "../BMS/BMS.kicad_sch")
+		(clearance 0.05)
 		(attr smd)
 		(fp_line
 			(start -0.7 -0.35)
@@ -3862,7 +3865,7 @@
 	(footprint "Footprints:4positionheader"
 		(layer "F.Cu")
 		(uuid "341617f6-e3b5-4eb8-a90d-398dcf1b77e2")
-		(at 52 106.5 -90)
+		(at 52.4 106.5 -90)
 		(property "Reference" "J11"
 			(at -0.518 -3.6064 90)
 			(layer "F.SilkS")
@@ -4271,6 +4274,7 @@
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
+			(clearance 0.05)
 			(uuid "b86acc78-309e-416c-a62e-5b12c473e9a4")
 		)
 		(pad "S2" smd rect
@@ -4307,8 +4311,8 @@
 			)
 			(polygon
 				(pts
-					(xy 53.7 105.05) (xy 53.7 103.65) (xy 52.05 103.65) (xy 52.05 104.6) (xy 50.55 104.6) (xy 50.55 108.4)
-					(xy 52.05 108.4) (xy 52.05 109.35) (xy 53.7 109.35) (xy 53.7 107.95) (xy 52.65 107.95) (xy 52.65 105.05)
+					(xy 54.1 105.05) (xy 54.1 103.65) (xy 52.45 103.65) (xy 52.45 104.6) (xy 50.95 104.6) (xy 50.95 108.4)
+					(xy 52.45 108.4) (xy 52.45 109.35) (xy 54.1 109.35) (xy 54.1 107.95) (xy 53.05 107.95) (xy 53.05 105.05)
 				)
 			)
 		)
@@ -4336,8 +4340,8 @@
 			)
 			(polygon
 				(pts
-					(xy 53.7 105.05) (xy 53.7 103.65) (xy 52.05 103.65) (xy 52.05 104.6) (xy 50.55 104.6) (xy 50.55 108.4)
-					(xy 52.05 108.4) (xy 52.05 109.35) (xy 53.7 109.35) (xy 53.7 107.95) (xy 52.65 107.95) (xy 52.65 105.05)
+					(xy 54.1 105.05) (xy 54.1 103.65) (xy 52.45 103.65) (xy 52.45 104.6) (xy 50.95 104.6) (xy 50.95 108.4)
+					(xy 52.45 108.4) (xy 52.45 109.35) (xy 54.1 109.35) (xy 54.1 107.95) (xy 53.05 107.95) (xy 53.05 105.05)
 				)
 			)
 		)
@@ -4413,6 +4417,7 @@
 		(path "/56db885d-6988-4ba3-9c6c-3dd30ffbc985/c3a81d51-d658-48e4-b651-ff73a22202a5")
 		(sheetname "ANO Dial")
 		(sheetfile "../ANO-DIAL/ANO-DIAL.kicad_sch")
+		(clearance 0.05)
 		(attr smd)
 		(fp_line
 			(start 0.7 0.35)
@@ -9431,6 +9436,7 @@
 		(path "/56db885d-6988-4ba3-9c6c-3dd30ffbc985/10e6cfdb-ea88-44b9-a80c-a8593b761005")
 		(sheetname "ANO Dial")
 		(sheetfile "../ANO-DIAL/ANO-DIAL.kicad_sch")
+		(clearance 0.05)
 		(attr smd)
 		(fp_line
 			(start 0.7 0.35)
@@ -9638,6 +9644,7 @@
 		(path "/8907b1b2-1248-4544-8d7d-33764869f691/6214a835-618b-4c2a-820e-9fb7ef8782f1")
 		(sheetname "BMS")
 		(sheetfile "../BMS/BMS.kicad_sch")
+		(clearance 0.05)
 		(attr smd)
 		(fp_line
 			(start -0.7 -0.35)
@@ -10423,6 +10430,7 @@
 		(path "/8907b1b2-1248-4544-8d7d-33764869f691/7e645e40-8d18-4670-9099-38646e4a3abc")
 		(sheetname "BMS")
 		(sheetfile "../BMS/BMS.kicad_sch")
+		(clearance 0.05)
 		(attr smd)
 		(fp_line
 			(start -0.7 -0.35)
@@ -10630,6 +10638,7 @@
 		(path "/8907b1b2-1248-4544-8d7d-33764869f691/2e56b263-bf19-46ec-b07c-ab1866805d1c")
 		(sheetname "BMS")
 		(sheetfile "../BMS/BMS.kicad_sch")
+		(clearance 0.05)
 		(attr smd)
 		(fp_line
 			(start -0.7 -0.35)
@@ -11606,6 +11615,7 @@
 		(path "/56db885d-6988-4ba3-9c6c-3dd30ffbc985/6a6cd12a-5c46-4e2e-bc16-1f9afa74fe11")
 		(sheetname "ANO Dial")
 		(sheetfile "../ANO-DIAL/ANO-DIAL.kicad_sch")
+		(clearance 0.05)
 		(attr smd)
 		(fp_line
 			(start 0.7 0.35)
