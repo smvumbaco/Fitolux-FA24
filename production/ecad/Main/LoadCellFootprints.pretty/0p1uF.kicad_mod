@@ -102,46 +102,6 @@
 		(layer "F.CrtYd")
 		(uuid "306b8aac-fa4f-4a68-a210-f8639beee73d")
 	)
-	(fp_line
-		(start -0.32 0.17)
-		(end -0.32 -0.17)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "1daf871c-b598-41ec-b6db-d0486a8f2f1f")
-	)
-	(fp_line
-		(start 0.32 -0.17)
-		(end -0.32 -0.17)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "7f73b58c-880d-4fa2-bcc1-27ae3301ae9e")
-	)
-	(fp_line
-		(start 0.32 0.17)
-		(end -0.32 0.17)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "f1dab035-9aff-45ce-8de5-f588a7bbb5b5")
-	)
-	(fp_line
-		(start 0.32 0.17)
-		(end 0.32 -0.17)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "14cda172-c4d1-4192-abd7-2c0125c829cc")
-	)
 	(pad "1" smd rect
 		(at -0.281 0)
 		(size 0.38 0.4)
