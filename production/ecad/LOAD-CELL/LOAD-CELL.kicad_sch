@@ -4489,7 +4489,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:inductor"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 124.46 71.12 0)
 			(effects
 				(font
