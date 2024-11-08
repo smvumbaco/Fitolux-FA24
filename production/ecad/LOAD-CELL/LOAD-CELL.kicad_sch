@@ -3884,7 +3884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:10k"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 204.978 74.93 90)
 			(effects
 				(font
