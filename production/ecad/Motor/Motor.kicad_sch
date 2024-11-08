@@ -2678,7 +2678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Transistor_Power:GaN_Systems_GaNPX-3_5x6.6mm_Drain3.76x0.6mm"
+		(property "Footprint" "Footprints:SOT50P160X90-3N"
 			(at 55.88 71.12 0)
 			(effects
 				(font
@@ -2845,7 +2845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Transistor_Power:GaN_Systems_GaNPX-3_5x6.6mm_Drain3.76x0.6mm"
+		(property "Footprint" "Footprints:SOT50P160X90-3N"
 			(at 55.88 36.83 0)
 			(effects
 				(font
