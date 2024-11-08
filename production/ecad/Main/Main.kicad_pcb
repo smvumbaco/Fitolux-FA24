@@ -5793,7 +5793,7 @@
 		(descr "Mounting Hole 3.2mm, no annular, M3, ISO7380")
 		(tags "mounting hole 3.2mm no annular m3 iso7380")
 		(property "Reference" "H1"
-			(at 3.464466 -2.035534 0)
+			(at 3.464466 -2.535534 0)
 			(layer "F.SilkS")
 			(uuid "a36d1dfd-fb1d-4796-a0b7-11164401e95e")
 			(effects
