@@ -11408,7 +11408,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "DNP2"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "8aa546b1-a710-473d-92e7-89eea9c69f39")
 			(effects
@@ -11419,7 +11419,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "b276efb5-c0d6-406a-9fa8-5f12199ceaf0")
 			(effects
@@ -11574,7 +11574,7 @@
 			(uuid "307e5e27-301e-4b1a-bf9a-9a5e4a15acae")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ee2f122c-73b0-4ac7-819a-3e94119992e0")
 			(effects
@@ -20589,6 +20589,28 @@
 		(layer "B.Cu")
 		(net 70)
 		(uuid "07bd4e1b-18cb-4832-bf5d-b22f8374c323")
+	)
+	(zone
+		(net 2)
+		(net_name "GND")
+		(layers "F&B.Cu")
+		(uuid "ee77df5e-0bc6-4fbd-92fc-0f013ef05efc")
+		(hatch edge 0.5)
+		(priority 6)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 50 55.5) (xy 106 55.5) (xy 106 136) (xy 50 137)
+			)
+		)
 	)
 	(zone
 		(net 3)
