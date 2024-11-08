@@ -6223,7 +6223,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at 0 -1.43 180)
+			(at -1.5 -1.43 180)
 			(layer "F.SilkS")
 			(uuid "1eb5e232-5762-4997-ab63-e098785353e8")
 			(effects
@@ -6437,7 +6437,7 @@
 		(descr "GaN Systems GaNPX GS66504B Package, https://gansystems.com/wp-content/uploads/2020/04/GS66504B-DS-Rev-200402.pdf")
 		(tags "ganpx gs66504b")
 		(property "Reference" "Q1"
-			(at 0.09 -0.06 -90)
+			(at 0.09 -0.06 0)
 			(layer "F.SilkS")
 			(uuid "7581cecd-5f2d-42e8-84ba-7059c1b7a8a8")
 			(effects
@@ -9276,7 +9276,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C6"
-			(at 0 -1.43 0)
+			(at 2.5 0 0)
 			(layer "F.SilkS")
 			(uuid "c87dce48-0dd1-4454-8f48-c92fabd01b7f")
 			(effects
@@ -9490,7 +9490,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C7"
-			(at 0 -1.43 0)
+			(at 1.294466 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "f82ed11d-5584-4c8c-adc1-f1765a845f18")
 			(effects
@@ -10216,13 +10216,13 @@
 		(uuid "a78cde8e-fe46-4455-a82e-827f0d3d1737")
 		(at 173.205534 61.210534 180)
 		(property "Reference" "R7"
-			(at -1.33 1.175 180)
+			(at 1.705534 0.710534 180)
 			(layer "F.SilkS")
 			(uuid "46bef669-060e-49da-9b24-6bf9e8a342b4")
 			(effects
 				(font
-					(size 0.64 0.64)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.05)
 				)
 			)
 		)
