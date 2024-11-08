@@ -4420,7 +4420,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:10uF"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 109.22 78.74 0)
 			(effects
 				(font
@@ -4870,7 +4870,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:0p1uF"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 149.86 101.6 0)
 			(effects
 				(font
@@ -5005,7 +5005,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:0p1uF"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 92.71 31.75 0)
 			(effects
 				(font
@@ -5208,7 +5208,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:0p1uF"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 147.32 119.38 0)
 			(effects
 				(font
@@ -5690,7 +5690,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:0p1uF"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 105.41 31.75 0)
 			(effects
 				(font
@@ -5825,7 +5825,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:0p1uF"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 99.06 78.74 0)
 			(effects
 				(font
@@ -6162,7 +6162,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LoadCellFootprints:10uF"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 120.65 31.75 0)
 			(effects
 				(font
