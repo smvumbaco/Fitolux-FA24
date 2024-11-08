@@ -4785,7 +4785,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R9"
-			(at 0 -1.43 180)
+			(at 2.420534 0.075534 180)
 			(layer "F.SilkS")
 			(uuid "4eabda4f-2236-42ce-9284-3eb10d2649d3")
 			(effects
@@ -10618,7 +10618,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R11"
-			(at 0 -1.43 180)
+			(at -2.789466 0.575534 180)
 			(layer "F.SilkS")
 			(uuid "41d7660f-e900-4878-bcaf-a8e72fc020ae")
 			(effects
@@ -13141,7 +13141,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R12"
-			(at 0 -1.43 180)
+			(at 3.035534 -0.464466 180)
 			(layer "F.SilkS")
 			(uuid "2df0366d-593d-47e2-ba69-e7fd24b1b379")
 			(effects
