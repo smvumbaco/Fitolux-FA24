@@ -2,17 +2,17 @@
 #define _ANODIAL_H_
 
 #include <RotaryEncoder.h>
-#include <Arduino.h>
+// #include <Arduino.h>
  
-#define PIN_ENCODER_A 13
-#define PIN_ENCODER_B 12
-#define COM_A    14
-#define COM_B    4
-#define BUTTON_UP 33
-#define BUTTON_LEFT 32
-#define BUTTON_DOWN 26
-#define BUTTON_RIGHT 25
-#define BUTTON_IN 27
+#define PIN_ENCODER_A 33    // ENCA
+#define PIN_ENCODER_B 25    // ENCB
+#define COM_A 12            // COMA                 
+#define BUTTON_IN 26        // SW1
+#define BUTTON_DOWN 35      // SW2
+#define BUTTON_RIGHT 36     // SW3
+#define BUTTON_UP 39        // SW4
+#define BUTTON_LEFT 34      // SW5
+#define COM_B 13            // COMB
 
 // rotary weight limits that user can specify
 #define MAX_WEIGHT 50
@@ -25,12 +25,16 @@ private:
     long lastRotary = 0;
     int rotaryDirection = 0;
     unsigned long lastDebounceTime = 0;
-    const unsigned long debounceDelay = 50; // Adjust debounce time as needed
+    const unsigned long rotaryDebounceDelay = 25; // Adjust debounce time as needed
 
 public:
-    int curr_rotary = 0;
-    int rotary_direction = 0;
-    int last_rotary = 0;
+    enum rotaryDirection
+    {
+        CLOCKWISE,
+        COUNTERCLOCKWISE
+    };
+
+    int rotaryChange = 0;
 
     const unsigned int DEBOUNCE_TIME = 200;
     unsigned long lastDebounceTimeUp = 0;
@@ -51,6 +55,9 @@ public:
     RotaryEncoder encoder;
 
     AnoDial();
+
+    long getCurrRotary();
+    long getLastRotary();
 
     void checkEncoder(); // Function to poll the encoder with debouncing
 

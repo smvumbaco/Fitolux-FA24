@@ -18,6 +18,16 @@ AnoDial::AnoDial() : encoder(PIN_ENCODER_B, PIN_ENCODER_A, RotaryEncoder::LatchM
     pinMode(BUTTON_IN, INPUT_PULLUP);
 }
 
+long AnoDial::getCurrRotary()
+{
+    return currRotary;
+}
+
+long AnoDial::getLastRotary()
+{
+    return lastRotary;
+}
+
 bool AnoDial::getButtonPress(buttonPress button)
 {
     if (button == LEFT)
@@ -79,19 +89,21 @@ void AnoDial::checkEncoder() {
         unsigned long currentTime = millis();
         
         // Check if enough time has passed since the last detected change
-        if ((currentTime - lastDebounceTime) > debounceDelay) {
+        if ((currentTime - lastDebounceTime) > rotaryDebounceDelay) {
             lastDebounceTime = currentTime; // Update the debounce timer 
             lastRotary = currRotary; // Update the last known position
 
-            // Print or handle the encoder movement
-            Serial.print("New Position: ");
-            Serial.println(currRotary);
+            // // Print or handle the encoder movement
+            // Serial.print("New Position: ");
+            // Serial.println(currRotary);
 
             // Check the direction and handle it as needed
             if (encoder.getDirection() == RotaryEncoder::Direction::CLOCKWISE) {
-                Serial.println("Direction: Clockwise");
+                rotaryDirection = CLOCKWISE;
+                rotaryChange = CLOCKWISE;
             } else if (encoder.getDirection() == RotaryEncoder::Direction::COUNTERCLOCKWISE) {
-                Serial.println("Direction: Counterclockwise");
+                rotaryDirection = COUNTERCLOCKWISE;
+                rotaryChange = COUNTERCLOCKWISE;
             }
         }
     }
