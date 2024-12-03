@@ -28,3 +28,12 @@ void MotorController::enable() {
 void MotorController::disable() {
     digitalWrite(standbyPin, LOW);
 }
+
+bool MotorController::getState() {
+    if (standbyPin == HIGH) {
+        return 1;
+    }
+    else if (standbyPin == LOW) {
+        return 0;
+    }
+}

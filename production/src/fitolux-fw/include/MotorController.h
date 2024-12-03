@@ -10,6 +10,7 @@ public:
     void setSpeed(int speed);
     void enable();
     void disable();
+    bool getState();
 
 private:
     int standbyPin;
