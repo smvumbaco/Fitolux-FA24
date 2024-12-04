@@ -9,52 +9,69 @@
 #define ARC_WIDTH 8
 #define NUM_ARCS 4
 
+
+
 // Colors for arcs
 uint16_t arcColors[NUM_ARCS] = {COLOR_DARK_BROWN, COLOR_MEDIUM_BROWN, COLOR_LIGHTER_BROWN, COLOR_LIGHTEST_BROWN};
 
-float arcDelays[NUM_ARCS] = {0, 0.5, 1.0, 1.5}; // Delays for staggered rotation in seconds
+// Delays for staggered rotation in milliseconds
+float arcDelays[NUM_ARCS] = {0, 500, 1000, 1500};
+
 // Helper function to draw arcs
-void drawArc(TFT_eSPI tft, int cx, int cy, int radius, int thickness, float startAngle, float sweepAngle, uint16_t color) {
-    for (int r = radius - thickness; r <= radius; r++) {
-        for (float angle = startAngle; angle < startAngle + sweepAngle; angle += 2) { // Increment angle for performance
+void drawArc(TFT_eSPI &tft, int cx, int cy, float radius, float thickness, float startAngle, float sweepAngle, uint16_t color) {
+    for (float r = radius - thickness; r <= radius; r++) {
+        for (float angle = startAngle; angle < startAngle + sweepAngle; angle += 0.5) { // Finer resolution for smoother arcs
             int x = cx + cos(radians(angle)) * r;
             int y = cy + sin(radians(angle)) * r;
             tft.drawPixel(x, y, color);
         }
     }
 }
+
 // Function to clear an arc
-void clearArc(TFT_eSPI tft, int cx, int cy, int radius, int thickness, float startAngle, float sweepAngle) {
+void clearArc(TFT_eSPI &tft, int cx, int cy, float radius, float thickness, float startAngle, float sweepAngle) {
     drawArc(tft, cx, cy, radius, thickness, startAngle, sweepAngle, COLOR_LIGHT_BROWN);
 }
-void displayDispensingScreen(TFT_eSPI tft) {
-    // Initialize the TFT display
-    tft.init();
-    tft.setRotation(1); // Landscape orientation
-    tft.fillScreen(COLOR_LIGHT_BROWN); // Set background color
+
+// Function to display the dispensing screen
+void displayDispensingScreen(TFT_eSPI &tft) {
+    tft.setRotation(0);     // Set rotation (adjust as necessary)
+    tft.fillScreen(COLOR_LIGHT_BROWN);
+
     // Draw static outer circle border
     tft.fillCircle(CENTER_X, CENTER_Y, OUTER_RADIUS, COLOR_DARK_BROWN);
     tft.fillCircle(CENTER_X, CENTER_Y, OUTER_RADIUS - ARC_WIDTH, COLOR_LIGHT_BROWN);
+
     // Add text elements
-    tft.setFreeFont(&FreeSansBold18pt7b); // Smaller font for "Fitolux."
+    tft.setFreeFont(&FreeSans9pt7b);
     tft.setTextColor(COLOR_BLACK, COLOR_LIGHT_BROWN);
-    tft.drawString("Fitolux.", (240 - tft.textWidth("Fitolux.")) / 2, 30);
-    tft.setFreeFont(&FreeSans9pt7b); // Smaller font for "Methods"
-    tft.drawString("Methods", (240 - tft.textWidth("Methods")) / 2, 70);
-    tft.setFreeFont(&FreeSans12pt7b); // Resize to match Figma
-    tft.drawString("SELECT AMOUNT", (240 - tft.textWidth("SELECT AMOUNT")) / 2, 110);
+    tft.setTextDatum(MC_DATUM);
+
+    // Draw main text
+    tft.drawString("DISPENSING...", CENTER_X, CENTER_Y - 10);
+
+    // Draw battery percentage below the text
+    String batteryText = "Battery: " + String(batteryLevel) + "%";
+    tft.drawString(batteryText, CENTER_X, CENTER_Y + 20);
 }
 
-void rotateArcs(TFT_eSPI tft) {
+// Function to rotate arcs
+void rotateArcs(TFT_eSPI &tft) {
     static float rotationOffset = 0;
+
     // Rotate arcs
     for (int i = 0; i < NUM_ARCS; i++) {
         float startAngle = rotationOffset + (i * 90); // Offset each arc by 90 degrees
         float sweepAngle = 45.0;                      // Arc sweep of 45 degrees
         drawArc(tft, CENTER_X, CENTER_Y, OUTER_RADIUS - (i * 20), ARC_WIDTH, startAngle, sweepAngle, arcColors[i]);
-        delay(arcDelays[i] * 1000); // Delay for staggered animation
-        clearArc(tft, CENTER_X, CENTER_Y, OUTER_RADIUS - (i * 20), ARC_WIDTH, startAngle, sweepAngle); // Clear the arc
+
+        // Delay for staggered animation
+        delay(arcDelays[i]);
+
+        // Clear the arc
+        clearArc(tft, CENTER_X, CENTER_Y, OUTER_RADIUS - (i * 20), ARC_WIDTH, startAngle, sweepAngle);
     }
+
     // Increment rotation offset
-    rotationOffset = fmod((rotationOffset + 5), 360); // Ensure rotation loops back at 360
+    rotationOffset = fmod((rotationOffset + 5), 360); // Loop rotation at 360 degrees
 }
