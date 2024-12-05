@@ -6,12 +6,14 @@
 #include "AnoDial.h"
 #include <RotaryEncoder.h>
 #include "driver/i2c.h"
+// #include "max17048.h"
 // include screen display headers
 #include "PortScreenComplete.h"
 #include "PortScreenDispensing.h"
 #include "PortScreenHome.h"
 #include "MotorController.h"
 #include "LoadCell.h"
+#include "Adafruit_MAX1704X.h"
 
 
 int weightSelectGrams;
@@ -20,6 +22,7 @@ TFT_eSPI tft = TFT_eSPI(TFT_WIDTH, TFT_HEIGHT);  // Create display object
 AnoDial ano;
 MotorController augerMotor;
 LoadCell loadCell;
+Adafruit_MAX17048 fuelGuage;
 
 
 enum State {
@@ -33,25 +36,35 @@ enum State {
 
 static State currentState = START;
 
+int batteryLevel;
 
 void setup() {
   // set up serial com
-  Serial.begin(115000);
+  Serial.begin(115200);
   Serial.println("Begin");
   
 
   // init TFT screen
-  tft.init();             // Initialize the display
-  tft.setRotation(1);     // Set rotation (adjust as necessary)
+  // tft.init();             // Initialize the display
+  // tft.setRotation(2);     // Set rotation (adjust as necessary)
   
-  digitalWrite(TFT_BL, HIGH);
+  // digitalWrite(TFT_BL, HIGH);
 
-  tft.fillScreen(TFT_BROWN); // Background color
+  // tft.fillScreen(TFT_BROWN); // Background color
 
   // displayHomeScreen(tft);
 
   // calibration factor for weight sensor
   loadCell.setCalibration(3648000);
+
+
+  // Initialize I2C communication
+  if (!fuelGuage.begin()) {
+    Serial.println("Could not find MAX17048 chip, check wiring!");
+    while (1);
+  }
+
+  Serial.println("MAX17048 found!");
   
 }
 
@@ -66,21 +79,30 @@ void loop() {
   // }
   switch (currentState) {
       case START:
-        displayHomeScreen(tft);
+        // displayPortHomeScreen(tft);
         Serial.println("CURRENT STATE: START");
-        delay(3000);
+        delay(1000);
         currentState = HOME_SCREEN;
+        Serial.println("Current State: HOME");
+        batteryLevel = fuelGuage.cellPercent();
+        // displayPortHomeScreen(tft);
+        // tft.drawString("HS", 45, 80, 2);
         break;
       case HOME_SCREEN:
-        displayHomeScreen(tft);
-        delay(2000);
-        displayPortCompleteScreen(tft);
-        delay(2000);
-        currentState = ADJUST_WEIGHT;
-        Serial.println("CURRENT STATE: HOME");
-        break;
+        // displayHomeScreen(tft);
+        batteryLevel = fuelGuage.cellPercent();
+        // Serial.println("SOC: ");
+        // Serial.println(batteryLevel);
+        delay(50);
+        if (ano.getButtonPress(ano.CENTER))
+        {
+          currentState = ADJUST_WEIGHT;
+          // tft.drawString("AW", 45, 80, 2);
+        }
+        Serial.println("CURRENT STATE: ADJUST WEIGHT");
+        // break;
       case ADJUST_WEIGHT:
-        Serial.println("start (3 sec)");
+        // Serial.println("ADJUST WEIGHT");
         ano.checkEncoder();
         // // int newPosition = dial.getPosition();
         // if (newPosition > 0 && selectedWeight < 100) {
@@ -99,13 +121,36 @@ void loop() {
         if (ano.last_rotary != ano.curr_rotary)
         {
           weightSelectGrams = ano.curr_rotary;
-          updateValue(tft, weightSelectGrams);
+          updateValue(tft, weightSelectGrams, batteryLevel);
+          // Serial.print("Weight Select: ");
+          // Serial.println(weightSelectGrams);
+          
+          tft.drawNumber(weightSelectGrams, 45, 100, 2);
         }
         // displayHomeScreen(tft);
-
+        if (ano.getButtonPress(ano.RIGHT))
+        {
+          Serial.println("RIGHT");
+          weightSelectGrams += 1;
+          tft.drawNumber(weightSelectGrams, 45, 100, 2);
+        }
+        if (ano.getButtonPress(ano.LEFT))
+        {
+          Serial.println("LEFT");
+        }
+        if (ano.getButtonPress(ano.UP))
+        {
+          Serial.println("UP");
+          tft.drawNumber(weightSelectGrams, 45, 100, 2);
+        }
+        if (ano.getButtonPress(ano.DOWN))
+        {
+          Serial.println("DOWN");
+        }
         if (ano.getButtonPress(ano.CENTER))
         {
           currentState = DISPENSING;
+          tft.drawString("D", 45, 80, 2);
         }
         break;
       case DISPENSING:
@@ -168,3 +213,90 @@ void loop() {
 
 
 // ----------- COUNTERTOP CODE ----------- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// #include <Arduino.h>
+// #include <SPI.h>
+// #include <TFT_eSPI.h>
+// #include "AnoDial.h"
+// #include <RotaryEncoder.h>
+// #include "driver/i2c.h"
+// int weightSelectGrams;
+// TFT_eSPI tft = TFT_eSPI(TFT_WIDTH, TFT_HEIGHT);  // Create display object
+// AnoDial ano;
+// void setup() {
+//   // set up serial com
+//   Serial.begin(115000);
+//   Serial.println("THIS. IS. FITOLUX.");
+//   Serial.print("MOSI: ");
+//   Serial.println(TFT_MOSI);
+//   // // init TFT screen
+//   // tft.init();             // Initialize the display
+//   // tft.setRotation(1);     // Set rotation (adjust as necessary)
+//   // tft.fillScreen(TFT_BLUE);  // Clear screen to black
+  
+// }
+// void loop() {
+//   ano.checkEncoder();
+//   if (ano.getButtonPress(ano.LEFT))
+//   {
+//     Serial.println("left button clicked");
+//     // tft.fillScreen(TFT_GREEN);  // Clear screen to black
+//     // tft.setTextColor(TFT_BLACK);  // White text on a black background
+//     // tft.drawNumber(weightSelectGrams, 50, 50, 4);
+//   }
+//   if (ano.getButtonPress(ano.RIGHT))
+//   {
+//     Serial.println("right button clicked");
+//     // tft.fillScreen(TFT_YELLOW);  // Clear screen to black
+//     // tft.setTextColor(TFT_BLACK);  // White text on a black background
+//     // tft.drawNumber(weightSelectGrams, 50, 50, 4);
+//   }
+//   if (ano.getButtonPress(ano.UP))
+//   {
+//     Serial.println("up button clicked");
+//     // tft.fillScreen(TFT_PURPLE);  // Clear screen to black
+//     // tft.setTextColor(TFT_BLACK);  // White text on a black background
+//     // tft.drawNumber(weightSelectGrams, 50, 50, 4);
+//   }
+//   if (ano.getButtonPress(ano.DOWN))
+//   {
+//     Serial.println("down button clicked");
+//     // tft.fillScreen(TFT_SILVER);  // Clear screen to black
+//     // tft.setTextColor(TFT_BLACK);  // White text on a black background
+//     // tft.drawNumber(weightSelectGrams, 50, 50, 4);
+//   }
+//   if (ano.getButtonPress(ano.CENTER))
+//   {
+//     Serial.println("center button clicked");
+//     // tft.fillScreen(TFT_GOLD);  // Clear screen to black
+//     // tft.setTextColor(TFT_BLACK);  // White text on a black background
+//     // tft.drawNumber(weightSelectGrams, 50, 50, 4);
+//   }
+// }

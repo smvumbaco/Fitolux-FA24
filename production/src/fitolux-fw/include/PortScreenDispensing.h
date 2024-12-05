@@ -6,6 +6,7 @@
 #include "driver/i2c.h"   // For trigonometric calculations
 #include <math.h>  
 #include <RotaryEncoder.h>
+#include "PortScreenHome.h"
 // Declare the TFT_eSPI object as external
 
 
@@ -16,8 +17,8 @@
 #define ARC_WIDTH 8
 #define NUM_ARCS 4
 // Function declarations for drawing arcs
-void drawArc(TFT_eSPI tft, int cx, int cy, int radius, int thickness, float startAngle, float sweepAngle, uint16_t color);
-void clearArc(TFT_eSPI tft, int cx, int cy, int radius, int thickness, float startAngle, float sweepAngle);
-void displayDispensingScreen(TFT_eSPI tft);
-void rotateArcs(TFT_eSPI tft);
+void drawArc(TFT_eSPI &tft, int cx, int cy, float radius, float thickness, float startAngle, float sweepAngle, uint16_t color);
+void clearArc(TFT_eSPI &tft, int cx, int cy, float radius, float thickness, float startAngle, float sweepAngle);
+void displayDispensingScreen(TFT_eSPI &tft);
+void rotateArcs(TFT_eSPI &tft);
 #endif // PORT_SCREEN_H
