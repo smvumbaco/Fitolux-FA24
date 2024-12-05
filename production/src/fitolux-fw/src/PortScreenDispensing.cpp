@@ -8,6 +8,7 @@
 #define OUTER_RADIUS 120
 #define ARC_WIDTH 8
 #define NUM_ARCS 4
+#define INNER_RADIUS 80
 
 
 
@@ -41,6 +42,10 @@ void displayDispensingScreen(TFT_eSPI &tft) {
     // Draw static outer circle border
     tft.fillCircle(CENTER_X, CENTER_Y, OUTER_RADIUS, COLOR_DARK_BROWN);
     tft.fillCircle(CENTER_X, CENTER_Y, OUTER_RADIUS - ARC_WIDTH, COLOR_LIGHT_BROWN);
+
+    // Draw static inner circle border
+    tft.fillCircle(CENTER_X, CENTER_Y, INNER_RADIUS, COLOR_MEDIUM_BROWN);
+    tft.fillCircle(CENTER_X, CENTER_Y, INNER_RADIUS - ARC_WIDTH, COLOR_LIGHT_BROWN);
 
     // Add text elements
     tft.setFreeFont(&FreeSans9pt7b);

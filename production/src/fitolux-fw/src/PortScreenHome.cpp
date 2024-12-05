@@ -51,8 +51,8 @@ void displayHomeScreen(TFT_eSPI tft) {
     tft.setFreeFont(&FreeSans12pt7b);
     tft.drawString("G", boxX + boxWidth - 30, boxY + (boxHeight - 16) / 2);
 }
+void updateValue(TFT_eSPI &tft, int value, int battery) {
 
-void updateValue(TFT_eSPI tft, int value, int battery) {
     int boxWidth = 160;
     int boxHeight = 40;
     int boxX = (240 - boxWidth) / 2;

@@ -13,7 +13,7 @@ extern int batteryLevel;
 // Function declarations
 // void displayStartScreen();
 void displayHomeScreen(TFT_eSPI tft);
-void updateValue(TFT_eSPI tft, int value);
+void updateValue(TFT_eSPI &tft, int value, int battery);
 void updateWeightDisplay(int weight);
 // void drawDispensingScreen();
 // void drawCompleteScreen();

@@ -42,13 +42,16 @@ void setup() {
 
   // init TFT screen
   tft.init();             // Initialize the display
-  tft.setRotation(1);     // Set rotation (adjust as necessary)
+  tft.setRotation(0);     // Set rotation (adjust as necessary)
   
   digitalWrite(TFT_BL, HIGH);
 
   tft.fillScreen(TFT_BROWN); // Background color
 
-  // displayHomeScreen(tft);
+  
+
+  //displayPortCompleteScreen(tft);
+
 
   // calibration factor for weight sensor
   loadCell.setCalibration(3648000);
@@ -99,7 +102,7 @@ void loop() {
         if (ano.last_rotary != ano.curr_rotary)
         {
           weightSelectGrams = ano.curr_rotary;
-          updateValue(tft, weightSelectGrams);
+          updateValue(tft, weightSelectGrams, batteryLevel);
         }
         // displayHomeScreen(tft);
 

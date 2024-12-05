@@ -16,6 +16,8 @@
 #define OUTER_RADIUS 120
 #define ARC_WIDTH 8
 #define NUM_ARCS 4
+#define INNER_RADIUS 80 // Radius for the inner circle
+#define OUTER_RADIUS 120
 // Function declarations for drawing arcs
 void drawArc(TFT_eSPI &tft, int cx, int cy, int radius, int thickness, float startAngle, float sweepAngle, uint16_t color);
 void clearArc(TFT_eSPI &tft, int cx, int cy, int radius, int thickness, float startAngle, float sweepAngle);

@@ -2,32 +2,31 @@
 
 // Initialize the display
 // TFT_eSPI tft = TFT_eSPI(240, 240);
-void drawCircle(TFT_eSPI tft, int x, int y, int radius, uint16_t color) {
+void drawCircle(TFT_eSPI &tft, int x, int y, int radius, uint16_t color) {
     tft.fillCircle(x, y, radius, color);
 }
 
-void displayPortCompleteScreen(TFT_eSPI tft) {
+void displayPortCompleteScreen(TFT_eSPI &tft) {
     // Initialize the LCD
-
     tft.init();
-    tft.setRotation(180);     // Set rotation (adjust as necessary)
+    tft.setRotation(180); // Set rotation (adjust as necessary)
 
-    tft.fillScreen(COLOR_LIGHT_BROWN); // Set background color
-    // Draw the outer circle
-    drawCircle(tft, 120, 120, 120, COLOR_DARK_BROWN);
-    // Draw the middle circle
-    drawCircle(tft, 120, 120, 102, COLOR_MEDIUM_BROWN);
-    // Draw the inner circle
-    drawCircle(tft, 120, 120, 84, COLOR_LIGHTER_BROWN);
-    // Display the "COMPLETE" text in the center
-    tft.setFreeFont(&FreeSansBold18pt7b); // Use a bold font
-    tft.setTextColor(COLOR_BLACK, COLOR_LIGHTER_BROWN); // Black text on light background
-    tft.setTextDatum(MC_DATUM); // Middle center alignment
-    tft.drawString("COMPLETE", 120, 120); // Centered text at (120, 120)
- // Display battery percentage below the "COMPLETE" text
+    // Set the background color
+    tft.fillScreen(COLOR_LIGHT_BROWN);
 
-    tft.setFreeFont(&FreeSans9pt7b); // Use a smaller font for the battery
+    // Draw concentric circles with adjusted outer line thickness
+    drawCircle(tft, 120, 120, 110, COLOR_DARK_BROWN);     // Outer circle (thinner by reducing radius)
+    drawCircle(tft, 120, 120, 100, COLOR_MEDIUM_BROWN);   // Middle circle
+    drawCircle(tft, 120, 120, 80, COLOR_LIGHT_BROWN);     // Inner circle
+
+    // Display the "COMPLETE" text with a smaller font
+    tft.setFreeFont(&FreeSans9pt7b);                    // Use smaller font for "COMPLETE" text
+    tft.setTextColor(COLOR_BLACK, COLOR_LIGHT_BROWN);   // Black text on light background
+    tft.setTextDatum(MC_DATUM);                        // Middle-center alignment
+    tft.drawString("COMPLETE", 120, 115);              // Centered text with slight adjustment
+
+    // Display battery percentage below the "COMPLETE" text
+    tft.setFreeFont(&FreeSans9pt7b);                   // Keep battery text small
     String batteryText = "Battery: " + String(batteryLevel) + "%";
-    tft.drawString(batteryText, 120, 140); // Centered text at (120, 140)
-
+    tft.drawString(batteryText, 120, 140);             // Adjusted y-position for spacing
 }
